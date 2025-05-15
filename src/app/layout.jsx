@@ -1,16 +1,18 @@
-import Link from "next/link";
+import NavigationBar from "@/components/NavigationBar";
+import Footer from "@/components/Footer";
+import "./globals.css"
+
+export const metadata = {
+  title: "설빙",
+};
 
 export default function RootLayout({ children }) {
   return (
     <html lang="ko">
       <body>
-        <header>
-          <nav>
-            <Link href='/brand/story'>Brand</Link>
-          </nav>
-        </header>
-        <body>{children}</body>
-        <footer></footer>
+        <NavigationBar />
+          {children}
+        <Footer />
       </body>
     </html>
   );
