@@ -1,24 +1,6 @@
-import React from "react";
-import Link from "next/link";
+import { BannerSlide } from "./BannerSlide"
 
-function App() {
-  return (
-    <div>
-      <h4>푸터</h4>
-      <li>
-        <Link href="/footer">footer</Link>
-      </li>
-      <BannerSlide />
-    </div>
-  );
-}
-
-export default App;
-
-function BannerSlide() {
-  return (
-    <div>
-      <img src="data/banner/main_banner_qcjgcbw.png" />
-    </div>
-  )
+export default function Home() {
+  const slides = require("../data/banners.json")
+  return <BannerSlide slides={slides} />
 }
