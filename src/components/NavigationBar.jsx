@@ -3,24 +3,14 @@ import Link from "next/link"
 
 export default function NavigationBar() {
   return (
-    <nav>
+    <div className="topnav">
       <Link href="/">
         <img src="/images/mobile/logo.png" alt="sulbing" />
       </Link>
-      <ul>
-        <li>
-          <Link href="/brand">BRAND</Link>
-        </li>
-        <li>
-          <Link href="/menu">MENU</Link>
-        </li>
-        <li>
-          <Link href="/news">NEWS</Link>
-        </li>
-        <li>
-          <Link href="/store">STORE</Link>
-        </li>
-      </ul>
-    </nav>
+      <Link href="/brand">BRAND</Link>
+      <Link href="/menu">MENU</Link>
+      <Link href="/news">NEWS</Link>
+      <Link href="/store">STORE</Link>
+    </div>
   )
 }
