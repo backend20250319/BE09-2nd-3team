@@ -1,0 +1,526 @@
+[
+    {
+        "title": "SPECIAL",
+        "items": [
+            {
+                "category": "설빙",
+                "name": "자.망.코.설빙",
+                "image": "/images/special/자.망.코.설빙.png"
+            },
+            {   
+                "category": "설빙",
+                "name": "잔망루피낭만딸기설빙",
+                "image": "/images/special/잔망루피낭만딸기설빙.png"
+            },
+            {
+                "category": "설빙",
+                "name": "잔망루피낭만초코설빙",
+                "image": "/images/special/잔망루피낭만초코설빙.png"
+            },
+            {
+                "category": "설빙",
+                "name": "생딸기설빙빙",
+                "image": "/images/special/생딸기설빙.png"
+            },
+            {
+                "category": "설빙",
+                "name": "순수요거생딸기설빙",
+                "image": "/images/special/순수요거생딸기설빙.png"
+            },
+            {
+                "category": "설빙",
+                "name": "생딸기트리설빙",
+                "image": "/images/special/생딸기트리설빙.png"
+            },
+            {
+                "category": "설빙",
+                "name": "생딸기요거초코볼설빙",
+                "image": "/images/special/생딸기요거초코볼설빙.png"
+            },
+            {
+                "category": "설빙",
+                "name": "하겐다즈딸기설빙",
+                "image": "/images/special/하겐다즈딸기설빙.png"
+            },
+            {
+                "category": "설빙",
+                "name": "ABC초코쿠키설빙",
+                "image": "/images/special/ABC초코쿠키설빙.png"
+            },
+            {
+                "category": "설빙",
+                "name": "ABC초코쿠키녹차설빙",
+                "image": "/images/special/ABC초코쿠키녹차설빙.png"
+            },
+            {
+                "category": "설빙",
+                "name": "스윗캔디구슬설빙",
+                "image": "/images/special/스윗캔디구슬설빙.png"
+            },
+            {
+                "category": "설빙",
+                "name": "초코바닐라구슬설빙",
+                "image": "/images/special/초코바닐라구슬설빙.png"
+            }
+            
+        ]
+    },
+
+    {
+        "title": "REGULAR",
+        "items": [
+            {
+                "category": "설빙",
+                "name": "인절미설빙",
+                "image": "/images/regular/인절미설빙.png"
+            },
+            {
+                "category": "설빙",
+                "name": "팥인절미설빙",
+                "image": "/images/regular/팥인절미설빙.png"
+            },
+            {
+                "category": "설빙",
+                "name": "인절미아이스크림설빙",
+                "image": "/images/regular/인절미아이스크림설빙.png"
+            },
+            {
+                "category": "설빙",
+                "name": "애플망고치즈설빙",
+                "image": "/images/regular/애플망고치즈설빙.png"
+            },
+            {
+                "category": "설빙",
+                "name": "초코브라우니설빙",
+                "image": "/images/regular/초코브라우니설빙.png"
+            },
+            {
+                "category": "설빙",
+                "name": "오레오초코몬스터설빙",
+                "image": "/images/regular/오레오초코몬스터설빙.png"
+            },
+            {
+                "category": "설빙",
+                "name": "순수요거블루베리설빙",
+                "image": "/images/regular/순수요거블루베리설빙.png"
+            },
+            {
+                "category": "설빙",
+                "name": "티라미수설빙",
+                "image": "/images/regular/티라미수설빙.png"
+            },
+            {
+                "category": "설빙",
+                "name": "치즈설빙",
+                "image": "/images/regular/치즈설빙.png"
+            }
+        ]
+    },
+
+    {
+        "title": "SIDE",
+        "items": [
+            {
+                "category": "사이드",
+                "name": "생딸기허니브레드",
+                "image": "/images/side/생딸기허니브레드"
+            },
+            {
+                "category": "사이드",
+                "name": "생딸기크로플",
+                "image": "/images/side/생딸기크로플"
+            },
+            {
+                "category": "사이드",
+                "name": "생딸기찹쌀떡",
+                "image": "/images/side/생딸기찹쌀떡"
+            },
+            {
+                "category": "사이드",
+                "name": "인절미토스트",
+                "image": "/images/side/인절미토스트"
+            },
+            {
+                "category": "사이드",
+                "name": "모짜렐라인절미토스트",
+                "image": "/images/side/모짜렐라인절미토스트"
+            },
+            {
+                "category": "사이드",
+                "name": "허니버터브레드",
+                "image": "/images/side/허니버터브레드"
+            },
+            {
+                "category": "사이드",
+                "name": "쌍쌍치즈가래떡",
+                "image": "/images/side/쌍쌍치즈가래떡"
+            },
+            {
+                "category": "사이드",
+                "name": "바바리안츄러스",
+                "image": "/images/side/바바리안츄러스"
+            },
+            {
+                "category": "사이드",
+                "name": "딥초코츄러스",
+                "image": "/images/side/딥초코츄러스"
+            },
+            {
+                "category": "사이드",
+                "name": "한입 쏙 붕어빵(팥)",
+                "image": "/images/side/한입쏙붕어빵팥"
+            },
+            {
+                "category": "사이드",
+                "name": "한입 쏙 붕어빵(슈크림)",
+                "image": "/images/side/한입쏙붕어빵슈크림"
+            },
+            {
+                "category": "사이드",
+                "name": "한입 쏙 붕어빵(자색고구마)",
+                "image": "/images/side/한입쏙붕어빵자색고구마"
+            },
+            {
+                "category": "사이드",
+                "name": "한입 쏙 붕어빵(피자)",
+                "image": "/images/side/한입쏙붕어빵피자"
+            },
+            {
+                "category": "사이드",
+                "name": "플레인크로플",
+                "image": "/images/side/플레인크로플"
+            },
+            {
+                "category": "사이드",
+                "name": "인절미크로플",
+                "image": "/images/side/인절미크로플"
+            },
+            {
+                "category": "사이드",
+                "name": "치즈크로플",
+                "image": "/images/side/치즈크로플"
+            },
+            {
+                "category": "사이드",
+                "name": "초코크로플",
+                "image": "/images/side/초코크로플"
+            },
+            {
+                "category": "사이드",
+                "name": "꿀호떡",
+                "image": "/images/side/꿀호떡"
+            },
+            {
+                "category": "사이드",
+                "name": "인절미꿀호떡",
+                "image": "/images/side/인절미꿀호떡"
+            },
+            {
+                "category": "사이드",
+                "name": "꽈배기오리지널",
+                "image": "/images/side/꽈배기오리지널"
+            },
+            {
+                "category": "사이드",
+                "name": "꽈배기 인절미",
+                "image": "/images/side/꽈배기인절미"
+            },
+            {
+                "category": "사이드",
+                "name": "꽈배기 초코",
+                "image": "/images/side/꽈배기초코"
+            },
+            {
+                "category": "사이드",
+                "name": "소금빵",
+                "image": "/images/side/소금빵"
+            },
+            {
+                "category": "사이드",
+                "name": "티라미수케이크",
+                "image": "/images/side/티라미수케이크"
+            },
+            {
+                "category": "사이드",
+                "name": "인절미마카롱",
+                "image": "/images/side/인절미마카롱"
+            },
+            {
+                "category": "사이드",
+                "name": "바닐라마카롱",
+                "image": "/images/side/바닐라마카롱"
+            },
+            {
+                "category": "사이드",
+                "name": "딸기마카롱",
+                "image": "/images/side/딸기마카롱"
+            },
+            {
+                "category": "사이드",
+                "name": "매콤떡볶이",
+                "image": "/images/side/매콤떡볶이"
+            },
+            {
+                "category": "사이드",
+                "name": "로제떡볶이",
+                "image": "/images/side/로제떡볶이"
+            },
+            {
+                "category": "사이드",
+                "name": "마라떡볶이",
+                "image": "/images/side/마라떡볶이"
+            },
+            {
+                "category": "사이드",
+                "name": "반숙김치볶음밥",
+                "image": "/images/side/반숙김치볶음밥"
+            },
+            {
+                "category": "사이드",
+                "name": "통통새우볶음밥",
+                "image": "/images/side/통통새우볶음밥"
+            },
+            {
+                "category": "사이드",
+                "name": "토마토스파게티",
+                "image": "/images/side/토마토스파게티"
+            },
+            {
+                "category": "사이드",
+                "name": "베이컨크림스파게티",
+                "image": "/images/side/베이컨크림스파게티"
+            }
+        ]
+    },
+
+    {
+        "title": "COFFEE",
+        "items": [
+            {
+                "category": "음료",
+                "name": "아메리카노",
+                "image": "/images/drink/아메리카노"
+            },
+            {
+                "category": "음료",
+                "name": "아메리카노Venti",
+                "image": "/images/drink/아메리카노Venti"
+            },
+            {
+                "category": "음료",
+                "name": "카페라떼",
+                "image": "/images/drink/카페라떼"
+            },
+            {
+                "category": "음료",
+                "name": "인절미샷라떼",
+                "image": "/images/drink/인절미샷라떼"
+            },
+            {
+                "category": "음료",
+                "name": "카푸치노",
+                "image": "/images/drink/카푸치노"
+            },
+            {
+                "category": "음료",
+                "name": "연유라떼",
+                "image": "/images/drink/연유라떼"
+            },
+            {
+                "category": "음료",
+                "name": "카라멜마끼아또",
+                "image": "/images/drink/카라멜마끼아또"
+            },
+            {
+                "category": "음료",
+                "name": "카페모카",
+                "image": "/images/drink/카페모카"
+            },
+            {
+                "category": "음료",
+                "name": "바닐라라떼",
+                "image": "/images/drink/바닐라라떼"
+            }
+        ]
+    }, 
+    {
+        "title": "BEVERAGE",
+        "items": [
+            {
+                "category": "음료",
+                "name": "애플망고스무디",
+                "image": "/images/drink/애플망고스무디"
+            },
+            {
+                "category": "음료",
+                "name": "생딸기주스",
+                "image": "/images/drink/생딸기주스"
+            },
+            {
+                "category": "음료",
+                "name": "인절미라떼",
+                "image": "/images/drink/인절미라떼"
+            },
+            {
+                "category": "음료",
+                "name": "깔끔식혜",
+                "image": "/images/drink/깔끔식혜"
+            },
+            {
+                "category": "음료",
+                "name": "깔끔식혜Venti",
+                "image": "/images/drink/깔끔식혜Venti"
+            },
+            {
+                "category": "음료",
+                "name": "미숫가루라떼",
+                "image": "/images/drink/미숫가루라떼"
+            },
+            {
+                "category": "음료",
+                "name": "핫초코",
+                "image": "/images/drink/핫초코"
+            },
+            {
+                "category": "음료",
+                "name": "아이스초코",
+                "image": "/images/drink/아이스초코"
+            },
+            {
+                "category": "음료",
+                "name": "그린티라떼",
+                "image": "/images/drink/그린티라떼"
+            },
+            {
+                "category": "음료",
+                "name": "고구마라떼",
+                "image": "/images/drink/고구마라떼"
+            },
+            {
+                "category": "음료",
+                "name": "레몬에이드",
+                "image": "/images/drink/레몬에이드"
+            },
+            {
+                "category": "음료",
+                "name": "유자에이드",
+                "image": "/images/drink/유자에이드"
+            },
+            {
+                "category": "음료",
+                "name": "딸기에이드",
+                "image": "/images/drink/딸기에이드"
+            },
+            {
+                "category": "음료",
+                "name": "허니자몽에이드",
+                "image": "/images/drink/허니자몽에이드"
+            },
+            {
+                "category": "음료",
+                "name": "애플망고에이드",
+                "image": "/images/drink/애플망고에이드"
+            },
+            {
+                "category": "음료",
+                "name": "플레인요거트스무디",
+                "image": "/images/drink/플레인요거트스무디"
+            },
+            {
+                "category": "음료",
+                "name": "블루베리요거트스무디",
+                "image": "/images/drink/블루베리요거트스무디"
+            },
+            {
+                "category": "음료",
+                "name": "딸기요거트스무디",
+                "image": "/images/drink/딸기요거트스무디"
+            },
+            {
+                "category": "음료",
+                "name": "메론소다",
+                "image": "/images/drink/메론소다"
+            },
+            {
+                "category": "음료",
+                "name": "캔디소다",
+                "image": "/images/drink/캔디소다"
+            }
+        ]
+    },
+    {
+        "title": "TEA",
+        "items": [
+            {
+                "category": "음료",
+                "name": "아이스티",
+                "image": "/images/drink/아이스티"
+            },
+            {
+                "category": "음료",
+                "name": "아이스티Venti",
+                "image": "/images/drink/아이스티Venti"
+            },
+            {
+                "category": "음료",
+                "name": "녹차",
+                "image": "/images/drink/녹차"
+            },
+            {
+                "category": "음료",
+                "name": "얼그레이",
+                "image": "/images/drink/얼그레이"
+            },
+            {
+                "category": "음료",
+                "name": "캐모마일",
+                "image": "/images/drink/캐모마일"
+            },
+            {
+                "category": "음료",
+                "name": "루이보스",
+                "image": "/images/drink/루이보스"
+            },
+            {
+                "category": "음료",
+                "name": "페퍼민트",
+                "image": "/images/drink/페퍼민트"
+            },
+            {
+                "category": "음료",
+                "name": "우엉차",
+                "image": "/images/drink/우엉차"
+            },
+            {
+                "category": "음료",
+                "name": "생강차",
+                "image": "/images/drink/생강차"
+            },
+            {
+                "category": "음료",
+                "name": "대추차",
+                "image": "/images/drink/대추차"
+            },
+            {
+                "category": "음료",
+                "name": "레몬차",
+                "image": "/images/drink/레몬차"
+            },
+            {
+                "category": "음료",
+                "name": "유자차",
+                "image": "/images/drink/유자차"
+            },
+            {
+                "category": "음료",
+                "name": "허니자몽차",
+                "image": "/images/drink/허니자몽차"
+            },
+            {
+                "category": "음료",
+                "name": "산딸기오미자차",
+                "image": "/images/drink/산딸기오미자차"
+            }
+        ]
+    }
+]
