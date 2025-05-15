@@ -7,10 +7,12 @@ export default function NavigationBar() {
       <Link href="/">
         <img src="/images/mobile/logo.png" alt="sulbing" />
       </Link>
-      <Link href="/brand">BRAND</Link>
-      <Link href="/menu">MENU</Link>
-      <Link href="/news">NEWS</Link>
-      <Link href="/store">STORE</Link>
+      <div className="menu">
+        <Link href="/brand">BRAND</Link>
+        <Link href="/menu">MENU</Link>
+        <Link href="/news">NEWS</Link>
+        <Link href="/store">STORE</Link>
+      </div>
     </div>
   )
 }
