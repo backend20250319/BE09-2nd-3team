@@ -8,8 +8,17 @@ function App() {
       <li>
         <Link href="/footer">footer</Link>
       </li>
+      <BannerSlide />
     </div>
   );
 }
 
 export default App;
+
+function BannerSlide() {
+  return (
+    <div>
+      <img src="data/banner/main_banner_qcjgcbw.png" />
+    </div>
+  )
+}
