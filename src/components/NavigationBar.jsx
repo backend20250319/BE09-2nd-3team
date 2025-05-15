@@ -8,7 +8,7 @@ export default function NavigationBar() {
         <img src="/images/mobile/logo.png" alt="sulbing" />
       </Link>
       <div className={styles.menu}>
-        <Link href="/brand">BRAND</Link>
+        <Link href="/brand/story">BRAND</Link>
         <Link href="/menu">MENU</Link>
         <Link href="/news">NEWS</Link>
         <Link href="/store">STORE</Link>
