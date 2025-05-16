@@ -5,7 +5,6 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className={styles.footer}>
-      {/* PC 전용 이미지 */}
       <div className={styles.linkOverlay}>
         <img
           src="/images/pc/footer_250416.png"
@@ -13,7 +12,6 @@ export default function Footer() {
           alt="PC 푸터"
         />
 
-        {/* PC 전용 링크 */}
         <a
           href="https://sulbing.com/rule/privacy.php"
           className={styles.link1}
@@ -23,14 +21,12 @@ export default function Footer() {
         <a href="/rule/legal_notice.php" className={styles.link4} />
       </div>
 
-      {/* 모바일 전용 이미지 */}
       <img
         src="/images/mobile/footer_250416.png"
         className={styles.mobileOnly}
         alt="모바일 푸터"
       />
 
-      {/* 모바일 전용 링크 */}
       <div className={styles.mobileLinkOverlay}>
         <a href="/news/onlinecenter.php" className={styles.mobileLink1} />
         <a href="/rule/privacy.php" className={styles.mobileLink2} />
