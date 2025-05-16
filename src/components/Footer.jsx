@@ -15,7 +15,7 @@ export default function Footer() {
         <a href="" className={styles.link1} />
         <Link href="/rule/privacy" className={styles.link2}></Link>
         <Link href="/rule/email-legal" className={styles.link3}></Link>
-        <a href="/rule/legal_notice.php" className={styles.link4} />
+        <Link href="/rule/legal-notice" className={styles.link4}></Link>
       </div>
 
       <img
