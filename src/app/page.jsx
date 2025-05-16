@@ -1,12 +1,12 @@
-import { BannerSlide } from "./BannerSlide"
-import MenuSection from "./MenuSection"
+import { BannerSlide } from "./components/BannerSlide"
+import MenuSection from "./components/MenuSection"
 
 export default function Home() {
   const banners = require("../data/banners.json")
   return (
     <>
       <BannerSlide banners={banners} />
-      <MenuSection />
+      <MenuSection menuIds={[1, 2, 3, 4, 5]} />
     </>
   )
 }
