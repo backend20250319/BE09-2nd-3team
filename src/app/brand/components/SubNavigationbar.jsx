@@ -1,12 +1,11 @@
 "use client";
 
-import { usePathname, useRouter } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import styles from "../brand.module.css";
 
 export default function SubNavigationBar() {
   const pathname = usePathname();
-  const router = useRouter();
   
   const handleClick = (href) => {
     if (pathname === href) {
@@ -15,7 +14,7 @@ export default function SubNavigationBar() {
   }
 
   return (
-    <div className={styles.headerContent}>
+    <div>
       <nav className={styles.subTab}>
         <div className = {styles.inner}>
           <div className = {styles.tabLink}>
