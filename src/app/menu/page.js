@@ -1,12 +1,16 @@
 'use client';
 
-import { useState } from 'react';
-import SulbingTab from './subTab/sulBing';
-import SideTab from './subTab/side';
-import DrinkTab from './subTab/drink';
+import { useSearchParams, useRouter } from 'next/navigation';
+import MenuList from './component/menuList';
 
 export default function Menu() {
-  const [activeTab, setActiveTab] = useState('sulbingtab');
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const category = searchParams.get('type') || '설빙';
+
+  const handleTabChange = (newTab) => {
+    router.push(`/menu?type=${newTab}`);
+  };
 
   return (
     <div className='contentArea'>
@@ -14,38 +18,34 @@ export default function Menu() {
       <div className="inner">
         <div className="tabLink">
           <button
-            onClick={() => setActiveTab('sulbingtab')}
-            className={activeTab === 'sulbingtab' ? 'active' : ''}
+            onClick={() => handleTabChange('설빙')}
+            className={category === '설빙' ? 'active' : ''}
           >
             설빙
           </button>
           <span className="divider">|</span>
           <button
-            onClick={() => setActiveTab('sidetab')}
-            className={activeTab === 'sidetab' ? 'active' : ''}
+            onClick={() => handleTabChange('사이드')}
+            className={category === '사이드' ? 'active' : ''}
           >
             사이드
           </button>
           <span className="divider">|</span>
           <button
-            onClick={() => setActiveTab('drinktab')}
-            className={activeTab === 'drinktab' ? 'active' : ''}
+            onClick={() => handleTabChange('음료')}
+            className={category === '음료' ? 'active' : ''}
           >
             음료
           </button>
         </div>
 
         <div>
-          {activeTab === 'sulbingtab' && <SulbingTab />}
-          {activeTab === 'sidetab' && <SideTab />}
-          {activeTab === 'drinktab' && <DrinkTab />}
+          <MenuList category={category} />
           <div className='bottomTxt'>* 매장 별 메뉴는 상이할 수 있습니다.</div>
         </div>
         
       </div>
     </div>
-
   </div>
-    
   );
 }

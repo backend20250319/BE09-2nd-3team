@@ -52,26 +52,21 @@
   display: flex;
   gap: 1rem;
   min-width: max-content;
-  padding-bottom: 1rem;
 }
 
 .menuItem {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #fffaf2;
+  border-radius: 9999px;
+  width: 308px;
+  height: 397px;
 }
 
 .imageContainer {
-  background-color: white;
-  border-radius: 9999px;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  width: 180px;
-  height: 180px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
+  width: 100%;
+  padding: 25px;
 }
 
 .imageWrapper {
@@ -82,9 +77,8 @@
 
 .menuName {
   text-align: center;
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #4a1500;
+  font-size: 1.25rem;
+  color: #42120e;
 }
 
 @media (min-width: 768px) {
