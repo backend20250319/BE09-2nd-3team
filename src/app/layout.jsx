@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="stylesheet" href="https://use.typekit.net/pxi1xil.css" />
       </head>
-      <body>
+      <body className="wrap">
         <NavigationBar />
         {children}
         <Footer />
