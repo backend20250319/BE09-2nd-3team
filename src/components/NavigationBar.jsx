@@ -1,5 +1,5 @@
-import Link from "next/link"
-import styles from "./NavigationBar.module.css"
+import Link from "next/link";
+import styles from "./NavigationBar.module.css";
 
 export default function NavigationBar() {
   return (
@@ -14,5 +14,5 @@ export default function NavigationBar() {
         <Link href="/store">STORE</Link>
       </div>
     </div>
-  )
+  );
 }
