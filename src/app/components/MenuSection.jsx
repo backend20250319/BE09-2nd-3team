@@ -1,37 +1,11 @@
 import Image from "next/image"
 import Link from "next/link"
 import styles from "./MenuSection.module.css"
+import menuData from "@/data/menu.json"
 
-// 샘플 메뉴 데이터 (설빙 메뉴)
-const menuItems = [
-  {
-    id: 1,
-    name: "자.망.고.설빙",
-    image: "/product_small_asltgav.png",
-  },
-  {
-    id: 2,
-    name: "찐망루피낭만딸기설빙",
-    image: "/placeholder.svg?height=300&width=300",
-  },
-  {
-    id: 3,
-    name: "찐망루피낭만초코설빙",
-    image: "/placeholder.svg?height=300&width=300",
-  },
-  {
-    id: 4,
-    name: "생딸기설빙",
-    image: "/placeholder.svg?height=300&width=300",
-  },
-  {
-    id: 5,
-    name: "순수요거생딸기설빙",
-    image: "/placeholder.svg?height=300&width=300",
-  },
-]
+export default function MenuSection({ menuIds }) {
+  const menuItems = menuData.filter(item => menuIds.includes(item.id))
 
-export default function MenuSection() {
   return (
     <div className={styles.section}>
       <div className={styles.container}>
