@@ -1,15 +1,18 @@
 h1 {
   text-align: center;
-  margin: 24px;
-}
-div {
   margin: auto;
-  color: rgb(184, 94, 94);
-  width: 500;
-  height: 100px;
+}
+h3 {
+  padding: 30px 0 0 0;
+}
+.m {
+  padding: 30px;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 105px 0;
 }
 body {
-  background-color: rgb(240, 233, 223);
+  background-color: #fffef0;
 }
 .arrow {
   transition: transform 0.3s ease;
@@ -21,4 +24,41 @@ body {
 button {
   background-color: rgb(240, 233, 223);
   text-align: right;
+}
+.line {
+  margin: 80px auto 0 auto;
+  border-top: 2px solid;
+  border-top-color: rgb(174, 120, 117);
+  box-sizing: border-box;
+  display: block;
+  width: 950px;
+}
+.under {
+  position: relative; /* ▼ 버튼의 위치 기준 */
+  padding: 0 70px 0 30px;
+  display: block;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(174, 120, 117);
+  list-style-type: none;
+  position: relative;
+  text-align: left;
+  unicode-bidi: isolate;
+  list-style-position: outside;
+  box-sizing: border-box;
+  border-bottom-width: 1px;
+  font-size: 18px;
+  margin: auto;
+  width: 850px;
+  color: #42120e;
+  justify-content: space-between;
+}
+.question-button {
+  color: #ae7875;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
 }

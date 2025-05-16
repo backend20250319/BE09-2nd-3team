@@ -6,22 +6,46 @@ function CustomerServiceForm() {
   const [showRegion, setShowRegion] = useState(false);
   const toggleRegion = () => setShowRegion(!showRegion);
 
+  <div className="call">
+    <label style={{ fontSize: "50px", color: "red" }}>온라인 고객센터</label>
+  </div>;
   return (
     <div className="form-wrapper">
-      <label>고객명</label>
-      <input type="text" id="name" />
+      <div className="call">
+        <label style={{ fontSize: "50px", color: "red", border: "1px" }}>
+          온라인 고객센터
+        </label>
+      </div>
       <br />
-      <label>연락처</label>
-      <input type="text" id="number" />
+      <div className="t">
+        <label>
+          <p>
+            서비스 및 고객 불편 사항 등을 남겨주시면
+            <br />
+            영업일 10일 이내로 답변드리도록 하겠습니다.
+          </p>
+        </label>
+      </div>
       <br />
-      <label>이메일</label>
-      <input type="text" id="email" />
       <br />
-      <label>상담 분류</label>
-      <select id="choice1">
-        <option value="1">매장 서비스</option>
-        <option value="2">온라인 쇼핑</option>
-      </select>
+      <div className="Item">
+        <div className="label">고객명</div>
+        <div className="area">
+          <input type="text" id="name" maxLength="20" />
+        </div>
+
+        <label>연락처</label>
+        <input type="text" id="number" />
+        <br />
+        <label>이메일</label>
+        <input type="text" id="email" />
+        <br />
+        <label>상담 분류</label>
+        <select id="choice1">
+          <option value="1">매장 서비스</option>
+          <option value="2">온라인 쇼핑</option>
+        </select>
+      </div>
       <br />
       <label>이용 매장명</label>
       <button type="button" onClick={toggleRegion}>
