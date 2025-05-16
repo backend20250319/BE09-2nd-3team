@@ -27,6 +27,7 @@ export default function Footer() {
         alt="모바일 푸터"
       />
 
+
       <div className={styles.mobileLinkOverlay}>
         <a href="/news/onlinecenter.php" className={styles.mobileLink1} />
         <a href="/rule/privacy.php" className={styles.mobileLink2} />
