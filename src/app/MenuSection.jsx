@@ -7,7 +7,7 @@ const menuItems = [
   {
     id: 1,
     name: "자.망.고.설빙",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/product_small_asltgav.png",
   },
   {
     id: 2,
@@ -59,8 +59,10 @@ export default function MenuSection() {
                       <Image
                         src={item.image || "/placeholder.svg"}
                         alt={item.name}
-                        fill
-                        style={{ objectFit: "cover" }}
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: "100%", height: "auto" }}
                       />
                     </div>
                   </div>
@@ -74,3 +76,4 @@ export default function MenuSection() {
     </div>
   )
 }
+

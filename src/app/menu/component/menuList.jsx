@@ -1,36 +1,39 @@
 // components/MenuList.jsx
 import menuData from '@/data/menu.json';
-
+import Link from 'next/link';
 
 export default function MenuList({ category }) {
-  const filteredData = menuData
-    .map(section => ({
-      ...section,
-      items: section.items.filter(item => item.category === category)
-    }))
-    .filter(section => section.items.length > 0);
+  // subcategory을 기준으로 메뉴 그룹화
+  const groupedBySubcategory = Object.entries(menuData).reduce((acc, [id, menu]) => {
+    if (menu.category === category) {
+      if (!acc[menu.subcategory]) {
+        acc[menu.subcategory] = [];
+      }
+      acc[menu.subcategory].push({ id, ...menu });
+    }
+    return acc;
+  }, {});
 
-return (
-  <>
-    {filteredData.map((section, index) => (
-      <div className="menuListArea" key={index}>
-        <div className="menuTitle">{section.title}</div>
-        <ul className="menuList">
-          {section.items.map((item, i) => (
-            <li key={i}>
-              <a href={item.href || "#"} className="item" style={{textDecoration:"none"}}>
-                <img
-                  src={encodeURI(item.image.endsWith('.png') ? item.image : item.image + '.png')}
-                  alt={item.name}
-                />
-                <p>{item.name}</p>
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div>
-    ))}
-  </>
-);
-
+  return (
+    <>
+      {Object.entries(groupedBySubcategory).map(([title, items]) => (
+        <div className="menuListArea" key={title}>
+          <div className="menuTitle">{title}</div>
+          <ul className="menuList">
+            {items.map((item) => (
+              <li key={item.name}>
+                <Link href={`/menu/menu_view?menu=${item.id}`} className="item" style={{textDecoration:"none"}}>
+                  <img
+                    src={encodeURI(item.image.endsWith('.png') ? item.image : item.image + '.png')}
+                    alt={item.name}
+                  />
+                  <p>{item.name}</p>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </>
+  );
 }
