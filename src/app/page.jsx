@@ -1,6 +1,12 @@
 import { BannerSlide } from "./BannerSlide"
+import MenuSection from "./MenuSection"
 
 export default function Home() {
-  const slides = require("../data/banners.json")
-  return <BannerSlide slides={slides} />
+  const banners = require("../data/banners.json")
+  return (
+    <>
+      <BannerSlide banners={banners} />
+      <MenuSection />
+    </>
+  )
 }
