@@ -3,46 +3,34 @@
 import { useState } from "react"
 import styles from "./BannerSlide.module.css"
 
-export function BannerSlide({ slides }) {
+export function BannerSlide({ banners }) {
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const goToPrevious = () => {
     const isFirstSlide = currentIndex === 0
-    const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1
+    const newIndex = isFirstSlide ? banners.length - 1 : currentIndex - 1
     setCurrentIndex(newIndex)
   }
 
   const goToNext = () => {
-    const isLastSlide = currentIndex === slides.length - 1
+    const isLastSlide = currentIndex === banners.length - 1
     const newIndex = isLastSlide ? 0 : currentIndex + 1
     setCurrentIndex(newIndex)
-  }
-
-  const goToSlide = (slideIndex) => {
-    setCurrentIndex(slideIndex)
   }
 
   return (
     <div className={styles.slideshow}>
       <div className={styles.slidesContainer} style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
         <div className={styles.slidesWrapper}>
-          {slides.map((slide, index) => (
+          {banners.map((slide, index) => (
             <div key={index} className={styles.slide}>
-              {slide.link ? (
-                <a href={slide.link} target="_blank" rel="noopener noreferrer" className={styles.slideLink}>
-                  <img
-                    src={slide.image || "/placeholder.svg"}
-                    alt={slide.alt || `배너 ${index + 1}`}
-                    className={styles.slideImage}
-                  />
-                </a>
-              ) : (
+              <a href={slide.link} target="_blank" rel="noopener noreferrer" className={styles.slideLink}>
                 <img
                   src={slide.image || "/placeholder.svg"}
                   alt={slide.alt || `배너 ${index + 1}`}
                   className={styles.slideImage}
                 />
-              )}
+              </a>
             </div>
           ))}
         </div>
@@ -58,7 +46,7 @@ export function BannerSlide({ slides }) {
 
       {/* 페이지 인디케이터 */}
       <div className={styles.indicators}>
-        {slides.map((_, index) => (
+        {banners.map((_, index) => (
           <span
             key={index}
             className={`${styles.indicator} ${currentIndex === index ? styles.activeIndicator : ""}`}
