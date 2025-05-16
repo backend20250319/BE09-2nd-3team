@@ -1,11 +1,5 @@
-import NavigationBar from "@/components/NavigationBar";
-import Footer from "@/components/Footer";
-import "./globals.css";
+import './globals.css';
 import '@/styles/menuPage.css';
-
-export const metadata = {
-  title: "설빙",
-};
 
 export default function RootLayout({ children }) {
   return (
@@ -13,10 +7,8 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="stylesheet" href="https://use.typekit.net/pxi1xil.css" />
       </head>
-      <body>
-        <NavigationBar />
+      <body >
         {children}
-        <Footer />
       </body>
     </html>
   );
