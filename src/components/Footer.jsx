@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import styles from "./Footer.module.css";
 import Link from "next/link";
@@ -16,6 +18,14 @@ export default function Footer() {
         <Link href="/rule/privacy" className={styles.link2}></Link>
         <Link href="/rule/email-legal" className={styles.link3}></Link>
         <Link href="/rule/legal-notice" className={styles.link4}></Link>
+        <a
+          href="#"
+          className={styles.link5}
+          onClick={(e) => {
+            e.preventDefault();
+            alert("회원만 이용 가능합니다.");
+          }}
+        />
       </div>
 
       <img
