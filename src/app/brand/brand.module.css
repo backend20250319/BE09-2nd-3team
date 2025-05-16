@@ -9,10 +9,10 @@ body {
 .subTab {
   display: flex;
   justify-content: center;
-  margin-bottom: 90px;
 }
 .subTab .inner {
-    position: relative;
+  position: relative;
+  margin-bottom: 90px;
 }
 .subTab .inner .tabLink {
     display: flex;
@@ -32,12 +32,13 @@ body {
 }
 .subTab .inner .tabLink .tab ~ .tab {
   border-left: 2px solid #873635;
-  }
+}
 .content{
   width: 1380px;
   margin: 0 auto;
-  padding: 0 0 1380px 0;
+  padding: 0 0 105px 0;
 }
+/* 설빙 story */
 .brandArea{
   text-align: center;
 }
@@ -87,32 +88,58 @@ body {
   justify-content: center;
   gap: 10px;
 }
-.brandTitle1.active { transition-delay: 0s; }
-.brandimg.active { transition-delay: 0.1s; }
-.brandTitle2.active { transition-delay: 0.2s; }
-.brandText1.active { transition-delay: 0.3s; }
-.brandTitle3.active { transition-delay: 0.4s; }
-.brandCore .item1.active { transition-delay: 0.5s; }
-.brandCore .item2.active { transition-delay: 0.6s; }
-.brandCore .item3.active { transition-delay: 0.7s; }
-.brandText .item1.active { transition-delay: 0.8s; }
-.brandText .item2.active { transition-delay: 0.9s; }
-.brandText .item3.active { transition-delay: 1s; }
-.brandTitle4.active { transition-delay: 1.1s; }
-.brandTag .item1.active { transition-delay: 1.2s; }
-.brandTag .item2.active { transition-delay: 1.3s; }
-.brandTag .item3.active { transition-delay: 1.4s; }
+.motion {
+  opacity: 0;
+  transform: translate(0, 100px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.motion.active {
+  opacity: 1;
+  transform: translate(0, 0);
+}
 
+/* 연혁 */
+.historyArea .historyTitle {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.historyArea .historyList {
+  padding-top: 40px;
+  background: url("/images/brand/history_line.png") no-repeat center top;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.historyArea .historyList .historyItem ~ .historyItem {
+  margin-top: 32px;
+}
+.historyArea .historyList .historyItem.left {
+  align-self: flex-end;
+  padding-right: 637px;
+  opacity: 0;
+  transform: translate(-100px, 0);
+}
+.historyArea .historyList .historyItem.right {
+  padding-left: 610px;
+  align-self: flex-start;
+  opacity: 0;
+  transform: translate(100px, 0);
+}
+.historyArea .historyList .historyItem.right.active,
+.historyArea .historyList .historyItem.left.active {
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: all 0.6s ease;
+}
+.historyArea .historyList .historyItem:last-child {
+  background: #fffef0;
+}
 
-@media only screen and (min-width: 1024px) {
-  .motion {
-    opacity: 0;
-    transform: translate(0, 100px);
-    transition: opacity 0.6s ease, transform 0.6s ease;
-  }
-
-  .motion.active {
-    opacity: 1;
-    transform: translate(0, 0);
-  }
+/* BI */
+.ciArea {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 0 0 105px 0;
 }
