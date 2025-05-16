@@ -12,12 +12,9 @@ export default function Footer() {
           alt="PC 푸터"
         />
 
-        <a
-          href="https://sulbing.com/rule/privacy.php"
-          className={styles.link1}
-        />
+        <a href="" className={styles.link1} />
         <Link href="/rule/privacy" className={styles.link2}></Link>
-        <a href="/rule/email_legal.php" className={styles.link3} />
+        <Link href="/rule/email-legal" className={styles.link3}></Link>
         <a href="/rule/legal_notice.php" className={styles.link4} />
       </div>
 
@@ -26,7 +23,6 @@ export default function Footer() {
         className={styles.mobileOnly}
         alt="모바일 푸터"
       />
-
 
       <div className={styles.mobileLinkOverlay}>
         <a href="/news/onlinecenter.php" className={styles.mobileLink1} />
