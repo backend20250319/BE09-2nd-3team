@@ -12,13 +12,10 @@ export default function Footer() {
           alt="PC 푸터"
         />
 
-        <a
-          href="https://sulbing.com/rule/privacy.php"
-          className={styles.link1}
-        />
+        <a href="" className={styles.link1} />
         <Link href="/rule/privacy" className={styles.link2}></Link>
-        <a href="/rule/email_legal.php" className={styles.link3} />
-        <a href="/rule/legal_notice.php" className={styles.link4} />
+        <Link href="/rule/email-legal" className={styles.link3}></Link>
+        <Link href="/rule/legal-notice" className={styles.link4}></Link>
       </div>
 
       <img
