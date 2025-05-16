@@ -1,41 +1,34 @@
 .footer {
-  position: relative;
-  width: 1920px; /* PC 고정 크기 */
-  height: 257px; /* PC 이미지 높이 */
-  margin: 0 auto;
-  background-color: #d6d6d6;
+  width: 100%;
+  background: #d6d6d6;
+  min-width: 1600px;
   overflow: hidden;
+  position: relative;
+  /* 
+          width: 100%;
+        background: #d6d6d6;
+        min-width: 1600px;
+        overflow: hidden;
+        position: relative;
+  */
 }
 
-/* 오버레이 영역 (PC 기준) */
+.mobileOnly {
+  display: none;
+}
 .linkOverlay {
   position: relative;
   width: 100%;
-  height: 257px; /* PC에서는 고정값 */
+  height: 257px;
 }
 
-/* PC용 이미지 */
-.pcOnly {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-  display: block;
-}
-
-/* PC용 링크 공통 스타일 */
 .linkOverlay a {
   position: absolute;
   display: block;
-  background-color: rgba(255, 0, 0, 0.3);
-  border: 1px solid red;
   cursor: pointer;
   z-index: 10;
 }
 
-/* PC용 링크 위치 */
 .link1 {
   top: 67px;
   left: 374px;
@@ -61,7 +54,6 @@
   height: 15px;
 }
 
-/* ✅ 반응형 처리 */
 @media (max-width: 768px) {
   .footer {
     width: 100%;
@@ -69,7 +61,7 @@
   }
 
   .linkOverlay {
-    display: none; /* PC용 링크 숨김 */
+    display: none;
   }
 
   .pcOnly {
@@ -91,7 +83,7 @@
 
   .mobileLinkOverlay {
     display: block;
-    position: absolute; /* 중요! 기준이 필요 */
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -102,12 +94,9 @@
   .mobileLinkOverlay a {
     position: absolute;
     display: block;
-    background-color: rgba(255, 0, 0, 0.3); /* 시각적 디버깅 */
-    border: 1px solid red;
     z-index: 10;
   }
 
-  /* 좌표값은 이미지 기준에 맞춰 조정하세요 */
   .mobileLink1 {
     top: 110px;
     left: 55px;
