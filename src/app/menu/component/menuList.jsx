@@ -4,12 +4,12 @@ import Link from 'next/link';
 
 export default function MenuList({ category }) {
   // subcategory을 기준으로 메뉴 그룹화
-  const groupedBySubcategory = Object.entries(menuData).reduce((acc, [id, menu]) => {
+  const groupedBySubcategory = menuData.reduce((acc, menu) => {
     if (menu.category === category) {
       if (!acc[menu.subcategory]) {
         acc[menu.subcategory] = [];
       }
-      acc[menu.subcategory].push({ id, ...menu });
+      acc[menu.subcategory].push(menu);
     }
     return acc;
   }, {});
