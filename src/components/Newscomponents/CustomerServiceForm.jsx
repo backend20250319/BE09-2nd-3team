@@ -39,12 +39,10 @@ export default function CustomerServiceForm() {
           <span className="phone-hyphen">-</span>
           <input type="text" maxLength={4} className="phone-input underline" />
         </div>
-
         <div className="input-with-label">
           <span className="inline-label required">이메일 |</span>
           <input type="email" required />
         </div>
-
         <div className="input-with-label">
           <span className="inline-label">상담분류 |</span>
           <select defaultValue="매장서비스">
@@ -52,7 +50,6 @@ export default function CustomerServiceForm() {
             <option value="온라인 쇼핑">온라인 쇼핑</option>
           </select>
         </div>
-
         <div className="input-with-label region-search">
           <span className="inline-label">이용 매장명 |</span>
           <input type="text" value={selectedStore} readOnly />
@@ -64,7 +61,6 @@ export default function CustomerServiceForm() {
             🔍
           </button>
         </div>
-
         {showStoreModal && (
           <div className="modal-overlay">
             <div className="store-modal">
@@ -105,7 +101,6 @@ export default function CustomerServiceForm() {
             </div>
           </div>
         )}
-
         <div className="input-with-label">
           <span className="inline-label">이용방법 |</span>
           <select defaultValue="매장방문">
@@ -114,12 +109,10 @@ export default function CustomerServiceForm() {
             <option value="포장">포장</option>
           </select>
         </div>
-
         <div className="input-with-label">
           <span className="inline-label">제품명 |</span>
           <input type="text" />
         </div>
-
         <div className="input-with-label">
           <span className="inline-label">문의유형 |</span>
           <select defaultValue="레시피">
@@ -131,40 +124,33 @@ export default function CustomerServiceForm() {
             <option value="기타">기타</option>
           </select>
         </div>
-
         <div className="input-with-label textarea-wrapper">
           <span className="inline-label">문의내용 |</span>
           <textarea rows={4}></textarea>
         </div>
-
         <div className="input-with-label">
           <span className="inline-label">파일 업로드 |</span>
           <input type="file" />
         </div>
-
         <div className="input-with-label textarea-wrapper">
           <span className="inline-label">고객 요청 사항 |</span>
           <textarea rows={2}></textarea>
         </div>
-
         <div className="input-with-label">
           <span className="inline-label required">비밀번호 |</span>
           <input type="password" required />
         </div>
-
         <div className="captcha">
           <span className="captcha-code">775638</span>
           <input type="text" className="input-box" style={{ width: "100px" }} />
           <button className="region-button">🔊</button>
         </div>
-
         <div className="agree-check">
           <input type="checkbox" id="agree" />
           <label htmlFor="agree">
             개인정보처리방침을 읽었으며 이에 동의합니다.
           </label>
         </div>
-
         <div className="button-group">
           <button className="button-cancel" type="button">
             취소
