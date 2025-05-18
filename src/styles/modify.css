@@ -146,16 +146,16 @@ z-index:13;
 #captcha #captcha_mp3 {
     margin: 0;
     padding: 0;
-		width: 40px;
-		height: 40px;
+    width: 40px;
+    height: 40px;
     border: 0;
     background: transparent;
     vertical-align: middle;
     overflow: hidden;
     cursor: pointer;
-    background: url(../../img/captcha2.png) no-repeat;
+    background: url(/img/captcha2.png) no-repeat;
     text-indent: -999px;
-    border-radius: 1px;
+    border-radius: 3px;
 	}
 
 	#captcha #captcha_reload {
@@ -168,9 +168,9 @@ z-index:13;
 		vertical-align: middle;
 		overflow: hidden;
 		cursor: pointer;
-		background: url(../../img/captcha2.png) no-repeat 0 bottom;
+		background: url(/img/captcha2.png) no-repeat 0 bottom;
 		text-indent: -999px;
-		border-radius: 1px;
+		border-radius: 3px;
 	}
 	audio {
 	height: 0;
@@ -222,7 +222,7 @@ z-index:13;
 
     .customerWrap .customerInputArea .inputItem .label {
         padding-left: 18px;
-        font-size: 24px;s
+        font-size: 24px;
     }
 	.inputItem.tall{
 		height:120px !important;
@@ -320,7 +320,7 @@ z-index:13;
     vertical-align: middle;
     overflow: hidden;
     cursor: pointer;
-    background: url(../../img/captcha2.png) no-repeat;
+    background: url(/img/captcha2.png) no-repeat;
     text-indent: -999px;
     border-radius: 3px;
 	}
@@ -335,7 +335,7 @@ z-index:13;
 		vertical-align: middle;
 		overflow: hidden;
 		cursor: pointer;
-		background: url(../../img/captcha2.png) no-repeat 0 bottom;
+		background: url(/img/captcha2.png) no-repeat 0 bottom;
 		text-indent: -999px;
 		border-radius: 3px;
 	}
@@ -429,4 +429,4 @@ text-align:left;
 	.newsArea.customerWrap .autoWriteCheck{
 	text-align:center;
 	margin-top:20px;
-	]
+	}
