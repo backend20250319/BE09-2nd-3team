@@ -3,13 +3,17 @@ h1 {
   margin: auto;
 }
 h3 {
-  padding: 30px 0 0 0;
+  padding: 20px 50px 20px 0;
+  white-space: nowrap;
+  position: relative;
+  font-size: 20px;
 }
+
 .m {
-  padding: 30px;
+  padding: 20px;
   width: 1000px;
-  margin: 0 auto;
-  padding: 105px 0;
+  margin: 2px auto;
+  padding: 55px 0;
 }
 body {
   background-color: #fffef0;
@@ -24,6 +28,7 @@ body {
 button {
   background-color: rgb(240, 233, 223);
   text-align: right;
+  position: relative;
 }
 .line {
   margin: 80px auto 0 auto;
@@ -31,10 +36,10 @@ button {
   border-top-color: rgb(174, 120, 117);
   box-sizing: border-box;
   display: block;
-  width: 950px;
+  width: 850px;
 }
 .under {
-  position: relative; /* ▼ 버튼의 위치 기준 */
+  position: relative;
   padding: 0 70px 0 30px;
   display: block;
   border-bottom-style: solid;
@@ -45,7 +50,7 @@ button {
   unicode-bidi: isolate;
   list-style-position: outside;
   box-sizing: border-box;
-  border-bottom-width: 1px;
+  border-bottom-width: 2px;
   font-size: 18px;
   margin: auto;
   width: 850px;
@@ -57,6 +62,7 @@ button {
   background: none;
   border: none;
   cursor: pointer;
+  display: inline;
   position: absolute;
   right: 10px;
   top: 50%;

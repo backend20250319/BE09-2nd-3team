@@ -19,7 +19,6 @@ export default function FQAprograme() {
           자주 묻는 질문
         </label>
       </h1>
-      <br />
 
       <ul className="line">
         {/* <div className="subTab"> */}
@@ -269,7 +268,7 @@ export default function FQAprograme() {
             </button>
           </h3>
           {openIndex === 10 && (
-            <p style={{ fontSize: "153px", color: "rgb(140, 140, 140)" }}>
+            <p style={{ fontSize: "15px", color: "rgb(140, 140, 140)" }}>
               A. 네, 설빙 매장에서 모바일쿠폰 사용 승인 완료 시 현금영수증을
               발급해 드리고 있습니다.
             </p>

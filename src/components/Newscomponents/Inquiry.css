@@ -73,12 +73,15 @@
 
 .form-wrapper {
   padding: 30px;
-  text-align: center;
+  display: flex; /* 추가 */
+  justify-content: center; /* 가운데 정렬 */
+  flex-direction: column; /* 세로 배치 유지 */
+  align-items: center; /* 가운데 정렬 */
 }
 
 .box {
   text-align: left;
-  margin: 30px auto 0;
+  margin: 30px;
   width: 500px;
   border: 2px solid;
   border-radius: 15px;
