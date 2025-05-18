@@ -1,29 +1,91 @@
-.box {
-  text-align: center;
-  margin: auto;
-  width: 500px;
-  height: auto;
-  border: 2px solid;
-  border-radius: 10px;
-  padding: 20px;
+.inputItems {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 92%;
+  max-width: 100%;
   box-sizing: border-box;
-  color: blueviolet;
 }
 
-.box input[type="text"] {
-  margin: 5px 0;
-  padding: 5px;
-  width: 50%;
-}
-
-.box label {
-  display: block;
-  margin-top: 10px;
+.inputItems label {
+  width: 100px; /* 라벨 너비 고정 */
   font-weight: bold;
+  flex-shrink: 0;
 }
 
-h2,
-p {
+.inputItems input[type="text"] {
+  padding: 5px;
+  height: 40px;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+.inputItems input[type="text"],
+.phone-inputs-inline {
+  flex: 1;
+  max-width: 300px;
+}
+
+.phone-inputs-inline {
+  display: flex;
+  flex: 1;
+  gap: 8px;
+}
+
+.phone-inputs-inline input {
+  flex: 1;
+  min-width: 0;
+  height: 40px;
+  padding: 5px;
   text-align: center;
-  color: blueviolet;
+  box-sizing: border-box;
+}
+.phone-inputs-inline-with-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+}
+
+.submit-inline {
+  height: 40px;
+  padding: 0 12px;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: rgb(211, 43, 43);
+  color: white;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.alert {
+  background-color: #dff0d8;
+  color: #3c763d;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  border: 1px solid #b2d8b2;
+}
+
+.form-wrapper {
+  padding: 30px;
+  display: flex; /* 추가 */
+  justify-content: center; /* 가운데 정렬 */
+  flex-direction: column; /* 세로 배치 유지 */
+  align-items: center; /* 가운데 정렬 */
+}
+
+.box {
+  text-align: left;
+  margin: 30px;
+  width: 500px;
+  border: 2px solid;
+  border-radius: 15px;
+  padding: 30px;
+  background-color: rgb(243, 227, 218);
+  color: rgb(51, 51, 51);
 }

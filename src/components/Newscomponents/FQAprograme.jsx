@@ -13,162 +13,291 @@ export default function FQAprograme() {
     }
   };
   return (
-    <div>
-      <h1>자주 묻는 질문</h1>
-      <br />
-      <hr />
-      <h3 onClick={() => toggleAnswer(0)}>
-        Q.매장마다 판매되는 제품의 가격이 다를 수도 있나요?
-        <button className={`arrow ${openIndex === 0 ? "open" : ""}`}>▼</button>
-      </h3>
-      {openIndex === 0 && (
-        <p>
-          A.매장별 운영 및 입점된 상권 등의 사유로 인하여 매장별 가격이 상이할
-          수 있습니다.
-        </p>
-      )}
-      <hr />
-      <h3 onClick={() => toggleAnswer(1)}>
-        Q.서비스 및 고객 불편 사항은 "설빙 홈페이지 온라인 고객센터"로 문의하면
-        되나요?
-        <button className={`arrow ${openIndex === 1 ? "open" : ""}`}>▼</button>
-      </h3>
-      {openIndex === 1 && (
-        <p>
-          A.맞습니다. 설빙 홈페이지 온라인 고개센터로 문의글을 남셔주시면 영업일
-          기준 최소 10일내에 답변드릴 수 있도록 최선을 다하고 있습니다. 먼저
-          문의를 남겨주신 고객님부터 순차적으로 답변드리고 있으며 고객 문의량 및
-          설빙 온라인 고객센터 상황에 따라 답변이 다소 지연될 수 있으니 양해
-          부탁 드립니다.
-        </p>
-      )}
-      <hr />
-      <h3 onClick={() => toggleAnswer(2)}>
-        Q.설빙 온라인 상담 문의에 대한 답변은 언제 받을 수 있나요?
-        <button className={`arrow ${openIndex === 2 ? "open" : ""}`}>▼</button>
-      </h3>
-      {openIndex === 2 && (
-        <p>
-          A.온라인 상담 문의를 먼저 남겨주신 고개님부터 순차적으로 답변드리고
-          있으며, 영업일 기준 최소 10일정도 소요됩니다. 고객 문의량 및 온라인
-          고객센터 상황에 따라 답변 기간이 다소 지연될 수 있으니 양해
-          부탁드립니다.
-        </p>
-      )}
-      <hr />
-      <h3 onClick={() => toggleAnswer(3)}>
-        Q.연유 추가 리필 유료화는 언제부터 시행되었나요?
-        <button className={`arrow ${openIndex === 3 ? "open" : ""}`}>▼</button>
-      </h3>
-      {openIndex === 3 && (
-        <p>
-          A. 설빙은 창업일로 부터 2018년까지, 5년동안 설빙을 찾아주시는 모든
-          고객님께 연유 추가 리필을 무료로 제공해 왔습니다. 2019년부터 연유값
-          인상과 낭비되는 연유를 줄이고자 기본 무료 제공되는 연유 외 추가리필 시
-          1회당 500원으로 유료전환 되었으며, 모든 설빙에는 연유가 1회
-          무료제공됩니다. 고객님의 양해 부탁드리며 앞으로도 설빙의 많은 관심과
-          사랑 부탁드립니다.
-        </p>
-      )}
-      <hr />
-      <h3 onClick={() => toggleAnswer(4)}>
-        Q.마케팅 제휴 및 프로모션 제안은 어떻게 하나요?
-        <button className={`arrow ${openIndex === 4 ? "open" : ""}`}>▼</button>
-      </h3>
-      {openIndex === 4 && (
-        <p>
-          A. 마케팅 제휴 및 프로모션 제안은 설빙 마케팅 메일 주소
-          marketing@sulbing.com로 서면 접수 받고 있습니다. 제휴 접수만 받고 있기
-          때문에 서비스 및 고객 불편 사항은 설빙 홈페이지 온라인 고객센터로
-          문의주셔야 해당 부서가 회신 및 확인 가능합니다.
-        </p>
-      )}
-      <hr />
-      <h3 onClick={() => toggleAnswer(5)}>
-        Q.설빙 창업 상담은 어떻게 하나요?
-        <button className={`arrow ${openIndex === 5 ? "open" : ""}`}>▼</button>
-      </h3>
-      {openIndex === 5 && (
-        <p>
-          A. 설빙 가맹사업 홈페이지를 통해 기본 절차 및 정보를 확인하실 수
-          있으며, 상세한 상담을 원하실 경우 홈페이지를 통해 창업 문의를
-          남겨주시면 확인 후 담당 부서에서 상담을 도와드리겠습니다.
-        </p>
-      )}
-      <hr />
-      <h3 onClick={() => toggleAnswer(6)}>
-        Q.설빙 모바일 상품권은 어디서 구매할 수 있나요?
-        <button className={`arrow ${openIndex === 6 ? "open" : ""}`}>▼</button>
-      </h3>
-      {openIndex === 6 && (
-        <p>
-          A. 온라인 커머스 플랫폼인 G마켓, 11번가에서 구매할 수 있습니다. 또한
-          '카카오톡 선물하기'에서 [설빙]을 검색하시면 쉽고 빠르게 구매 및 소중한
-          분께 선물하실 수 있습니다.
-        </p>
-      )}
-      <hr />
-      <h3 onClick={() => toggleAnswer(7)}>
-        Q.모바일 상품권 사용 방법이 궁금합니다.
-        <button className={`arrow ${openIndex === 7 ? "open" : ""}`}>▼</button>
-      </h3>
-      {openIndex === 7 && (
-        <p>
-          A. 모바일 쿠폰/상품권 사용 가능한 설빙 매장에 방문하셔서 구매하신
-          모바일 쿠폰/상품권의 바코드 또는 쿠폰번호를 설빙 매장 직원에게 제시 후
-          조회 완료되면 바로 제품으로 교환받으실 수 있습니다. (단, 배달 주문 시
-          사용불가)
-        </p>
-      )}
-      <hr />
-      <h3 onClick={() => toggleAnswer(8)}>
-        Q.모바일 상품권 사용 불가 매장이 궁금합니다.
-        <button className={`arrow ${openIndex === 8 ? "open" : ""}`}>▼</button>
-      </h3>
-      {openIndex === 8 && (
-        <p>
-          A. 모바일 쿠폰/상품권 사용 불가한 설빙 매장은 아래와 같습니다. -
-          롯데월드어드벤처점, 홍천 비발디파크점, 철원 와수리점, 고성 델피노점,
-          서초 강남뉴코아점, 고양 벨라시타점 (*매장 사정에 따라 사전 공지 없이
-          변경될 수 있습니다.)
-        </p>
-      )}
-      <hr />
-      <h3 onClick={() => toggleAnswer(9)}>
-        Q.모바일 쿠폰 환불, 요효기간, 교환, 사용 승인에 대한 문의는 어디서
-        하나요?
-        <button className={`arrow ${openIndex === 9 ? "open" : ""}`}>▼</button>
-      </h3>
-      {openIndex === 9 && (
-        <p>
-          A. 설빙은 쿠폰 구매처가 아니고 사용처이므로 환불, 유효기간, 교환 및
-          사용 승인에 대한 문의는 상품권 구매처에 문의해 주시기 바랍니다.
-        </p>
-      )}
-      <hr />
-      <h3 onClick={() => toggleAnswer(10)}>
-        Q.모바일 쿠폰 현금 영수증 발급되나요?
-        <button className={`arrow ${openIndex === 10 ? "open" : ""}`}>▼</button>
-      </h3>
-      {openIndex === 10 && (
-        <p>
-          A. 네, 설빙 매장에서 모바일쿠폰 사용 승인 완료 시 현금영수증을 발급해
-          드리고 있습니다.
-        </p>
-      )}
-      <hr />
-      <h3 onClick={() => toggleAnswer(11)}>
-        Q.실물 기프트 카드 대량 구매도 가능한가요?
-        <button className={`arrow ${openIndex === 11 ? "open" : ""}`}>▼</button>
-      </h3>
-      {openIndex === 11 && (
-        <p>
-          A. 네, 가능합니다. 상세 내용은 아래 이메일로 문의주시면 답변드리고
-          있습니다. ▶ order_gift@coopnc.com 순차적으로 답변드리고 있으며, 문의량
-          및 업체 사정에 따라 답변이 지연될 수 있으니 양해 부탁드리겠습니다.
-        </p>
-      )}
-      <hr />
+    <div className="m">
+      <h1>
+        <label style={{ fontSize: "60px", color: "#42120e" }}>
+          자주 묻는 질문
+        </label>
+      </h1>
+
+      <ul className="line">
+        {/* <div className="subTab"> */}
+        <li className="under">
+          <h3
+            onClick={() => toggleAnswer(0)}
+            style={{ position: "relative", paddingRight: "0px" }}
+          >
+            매장마다 판매되는 제품의 가격이 다를 수도 있나요?
+            <button
+              className={`arrow ${
+                openIndex === 0 ? "open" : ""
+              } question-button `}
+            >
+              ▼
+            </button>
+          </h3>
+
+          {/* </div> */}
+          {openIndex === 0 && (
+            <p style={{ fontSize: "15px", color: "rgb(140, 140, 140)" }}>
+              A.매장별 운영 및 입점된 상권 등의 사유로 인하여 매장별 가격이
+              상이할 수 있습니다.
+            </p>
+          )}
+        </li>
+        <li className="under">
+          <h3
+            onClick={() => toggleAnswer(1)}
+            style={{ position: "relative", paddingRight: "0px" }}
+          >
+            서비스 및 고객 불편 사항은 "설빙 홈페이지 온라인 고객센터"로
+            문의하면 되나요?
+            <button
+              className={`arrow ${
+                openIndex === 1 ? "open" : ""
+              } question-button `}
+            >
+              ▼
+            </button>
+          </h3>
+          {openIndex === 1 && (
+            <p style={{ fontSize: "15px", color: "rgb(140, 140, 140)" }}>
+              A.맞습니다. 설빙 홈페이지 온라인 고개센터로 문의글을 남셔주시면
+              영업일 기준 최소 10일내에 답변드릴 수 있도록 최선을 다하고
+              있습니다. 먼저 문의를 남겨주신 고객님부터 순차적으로 답변드리고
+              있으며 고객 문의량 및 설빙 온라인 고객센터 상황에 따라 답변이 다소
+              지연될 수 있으니 양해 부탁 드립니다.
+            </p>
+          )}
+        </li>
+        <li className="under">
+          <h3
+            onClick={() => toggleAnswer(2)}
+            style={{ position: "relative", paddingRight: "0px" }}
+          >
+            설빙 온라인 상담 문의에 대한 답변은 언제 받을 수 있나요?
+            <button
+              className={`arrow ${
+                openIndex === 2 ? "open" : ""
+              } question-button`}
+            >
+              ▼
+            </button>
+          </h3>
+          {openIndex === 2 && (
+            <p style={{ fontSize: "15px", color: "rgb(140, 140, 140)" }}>
+              A.온라인 상담 문의를 먼저 남겨주신 고개님부터 순차적으로
+              답변드리고 있으며, 영업일 기준 최소 10일정도 소요됩니다. 고객
+              문의량 및 온라인 고객센터 상황에 따라 답변 기간이 다소 지연될 수
+              있으니 양해 부탁드립니다.
+            </p>
+          )}
+        </li>
+        <li className="under">
+          <h3
+            onClick={() => toggleAnswer(3)}
+            style={{ position: "relative", paddingRight: "0px" }}
+          >
+            연유 추가 리필 유료화는 언제부터 시행되었나요?
+            <button
+              className={`arrow ${
+                openIndex === 3 ? "open" : ""
+              } question-button`}
+            >
+              ▼
+            </button>
+          </h3>
+          {openIndex === 3 && (
+            <p style={{ fontSize: "15px", color: "rgb(140, 140, 140)" }}>
+              A. 설빙은 창업일로 부터 2018년까지, 5년동안 설빙을 찾아주시는 모든
+              고객님께 연유 추가 리필을 무료로 제공해 왔습니다. 2019년부터
+              연유값 인상과 낭비되는 연유를 줄이고자 기본 무료 제공되는 연유 외
+              추가리필 시 1회당 500원으로 유료전환 되었으며, 모든 설빙에는
+              연유가 1회 무료제공됩니다. 고객님의 양해 부탁드리며 앞으로도
+              설빙의 많은 관심과 사랑 부탁드립니다.
+            </p>
+          )}
+        </li>
+        <li className="under">
+          <h3
+            onClick={() => toggleAnswer(4)}
+            style={{ position: "relative", paddingRight: "0px" }}
+          >
+            마케팅 제휴 및 프로모션 제안은 어떻게 하나요?
+            <button
+              className={`arrow ${
+                openIndex === 4 ? "open" : ""
+              } question-button`}
+            >
+              ▼
+            </button>
+          </h3>
+          {openIndex === 4 && (
+            <p style={{ fontSize: "15px", color: "rgb(140, 140, 140)" }}>
+              A. 마케팅 제휴 및 프로모션 제안은 설빙 마케팅 메일 주소
+              marketing@sulbing.com로 서면 접수 받고 있습니다. 제휴 접수만 받고
+              있기 때문에 서비스 및 고객 불편 사항은 설빙 홈페이지 온라인
+              고객센터로 문의주셔야 해당 부서가 회신 및 확인 가능합니다.
+            </p>
+          )}
+        </li>
+        <li className="under">
+          <h3
+            onClick={() => toggleAnswer(5)}
+            style={{ position: "relative", paddingRight: "0px" }}
+          >
+            설빙 창업 상담은 어떻게 하나요?
+            <button
+              className={`arrow ${
+                openIndex === 5 ? "open" : ""
+              } question-button`}
+            >
+              ▼
+            </button>
+          </h3>
+          {openIndex === 5 && (
+            <p style={{ fontSize: "15px", color: "rgb(140, 140, 140)" }}>
+              A. 설빙 가맹사업 홈페이지를 통해 기본 절차 및 정보를 확인하실 수
+              있으며, 상세한 상담을 원하실 경우 홈페이지를 통해 창업 문의를
+              남겨주시면 확인 후 담당 부서에서 상담을 도와드리겠습니다.
+            </p>
+          )}
+        </li>
+        <li className="under">
+          <h3
+            onClick={() => toggleAnswer(6)}
+            style={{ position: "relative", paddingRight: "0px" }}
+          >
+            설빙 모바일 상품권은 어디서 구매할 수 있나요?
+            <button
+              className={`arrow ${
+                openIndex === 6 ? "open" : ""
+              }  question-button`}
+            >
+              ▼
+            </button>
+          </h3>
+          {openIndex === 6 && (
+            <p style={{ fontSize: "15px", color: "rgb(140, 140, 140)" }}>
+              A. 온라인 커머스 플랫폼인 G마켓, 11번가에서 구매할 수 있습니다.
+              또한 '카카오톡 선물하기'에서 [설빙]을 검색하시면 쉽고 빠르게 구매
+              및 소중한 분께 선물하실 수 있습니다.
+            </p>
+          )}
+        </li>
+        <li className="under">
+          <h3
+            onClick={() => toggleAnswer(7)}
+            style={{ position: "relative", paddingRight: "0px" }}
+          >
+            모바일 상품권 사용 방법이 궁금합니다.
+            <button
+              className={`arrow ${
+                openIndex === 7 ? "open" : ""
+              } question-button`}
+            >
+              ▼
+            </button>
+          </h3>
+          {openIndex === 7 && (
+            <p style={{ fontSize: "15px", color: "rgb(140, 140, 140)" }}>
+              A. 모바일 쿠폰/상품권 사용 가능한 설빙 매장에 방문하셔서 구매하신
+              모바일 쿠폰/상품권의 바코드 또는 쿠폰번호를 설빙 매장 직원에게
+              제시 후 조회 완료되면 바로 제품으로 교환받으실 수 있습니다. (단,
+              배달 주문 시 사용불가)
+            </p>
+          )}
+        </li>
+        <li className="under">
+          <h3
+            onClick={() => toggleAnswer(8)}
+            style={{ position: "relative", paddingRight: "0px" }}
+          >
+            모바일 상품권 사용 불가 매장이 궁금합니다.
+            <button
+              className={`arrow ${
+                openIndex === 8 ? "open" : ""
+              } question-button`}
+            >
+              ▼
+            </button>
+          </h3>
+          {openIndex === 8 && (
+            <p style={{ fontSize: "15px", color: "rgb(140, 140, 140)" }}>
+              A. 모바일 쿠폰/상품권 사용 불가한 설빙 매장은 아래와 같습니다. -
+              롯데월드어드벤처점, 홍천 비발디파크점, 철원 와수리점, 고성
+              델피노점, 서초 강남뉴코아점, 고양 벨라시타점 (*매장 사정에 따라
+              사전 공지 없이 변경될 수 있습니다.)
+            </p>
+          )}
+        </li>
+        <li className="under">
+          <h3
+            onClick={() => toggleAnswer(9)}
+            style={{ position: "relative", paddingRight: "0px" }}
+          >
+            모바일 쿠폰 환불, 요효기간, 교환, 사용 승인에 대한 문의는 어디서
+            하나요?
+            <button
+              className={`arrow ${
+                openIndex === 9 ? "open" : ""
+              } question-button`}
+            >
+              ▼
+            </button>
+          </h3>
+          {openIndex === 9 && (
+            <p style={{ fontSize: "15px", color: "rgb(140, 140, 140)" }}>
+              A. 설빙은 쿠폰 구매처가 아니고 사용처이므로 환불, 유효기간, 교환
+              및 사용 승인에 대한 문의는 상품권 구매처에 문의해 주시기 바랍니다.
+            </p>
+          )}
+        </li>
+        <li className="under">
+          <h3
+            onClick={() => toggleAnswer(10)}
+            style={{ position: "relative", paddingRight: "0px" }}
+          >
+            모바일 쿠폰 현금 영수증 발급되나요?
+            <button
+              className={`arrow ${
+                openIndex === 10 ? "open" : ""
+              } question-button`}
+            >
+              ▼
+            </button>
+          </h3>
+          {openIndex === 10 && (
+            <p style={{ fontSize: "15px", color: "rgb(140, 140, 140)" }}>
+              A. 네, 설빙 매장에서 모바일쿠폰 사용 승인 완료 시 현금영수증을
+              발급해 드리고 있습니다.
+            </p>
+          )}
+        </li>
+        <li className="under">
+          <h3
+            onClick={() => toggleAnswer(11)}
+            style={{ position: "relative", paddingRight: "0px" }}
+          >
+            실물 기프트 카드 대량 구매도 가능한가요?
+            <button
+              className={`arrow ${
+                openIndex === 11 ? "open" : ""
+              } question-button`}
+            >
+              ▼
+            </button>
+          </h3>
+          {openIndex === 11 && (
+            <p style={{ fontSize: "15px", color: "rgb(140, 140, 140)" }}>
+              A. 네, 가능합니다. 상세 내용은 아래 이메일로 문의주시면 답변드리고
+              있습니다. ▶ order_gift@coopnc.com 순차적으로 답변드리고 있으며,
+              문의량 및 업체 사정에 따라 답변이 지연될 수 있으니 양해
+              부탁드리겠습니다.
+            </p>
+          )}
+        </li>
+      </ul>
     </div>
   );
 }
