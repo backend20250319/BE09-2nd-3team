@@ -13,7 +13,7 @@ export default function Menu() {
   };
 
   return (
-    <div className='contentArea'>
+    <div className='contentArea'style={{padding: '0'}}>
       <div className="subTab">
       <div className="inner">
         <div className="tabLink">

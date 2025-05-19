@@ -10,7 +10,7 @@ export default function NavigationBar() {
       <div className={styles.menu}>
         <Link href="/brand/story">BRAND</Link>
         <Link href="/menu">MENU</Link>
-        <Link href="/news">NEWS</Link>
+        <Link href="/news/notice">NEWS</Link>
         <Link href="/store">STORE</Link>
       </div>
     </div>
