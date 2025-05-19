@@ -1,12 +1,4 @@
-:global(a:link),
-:global(a:visited),
-:global(a:hover),
-:global(a:active),
-:global(a:focus) {
-  text-decoration: none;
-}
-
-.link {
+a:link, a:visited, a:hover, a:active, a:focus {
   text-decoration: none;
 }
 
