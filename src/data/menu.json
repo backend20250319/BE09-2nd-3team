@@ -65,133 +65,538 @@
     "name": "잔망루피낭만초코설빙",
     "category": "설빙",
     "subcategory": "SPECIAL",
-    "image": "/images/special/잔망루피낭만초코설빙.png"
+    "thumbnail":"/images/special/잔망루피낭만초코설빙.png",
+    "image": "/images/product/잔망루피낭만초코설빙big.png",
+    "ingredients": [
+      {
+        "name": "피스타치오 스프레드",
+        "image": "/images/ingredient/피스타치오스프레드.png"
+      },
+      {
+        "name": "카다이프",
+        "image": "/images/ingredient/카다이프.png"
+      },
+      {
+        "name": "초코슬라이스",
+        "image": "/images/ingredient/초코슬라이스.png"
+      },
+      {
+        "name": "초코소스",
+        "image": "/images/ingredient/초코소스.png"
+      }
+    ],
+    "description": "설빙만의 황금 비율로 제조한 두바이 스타일 리얼 카다이프에\n초코볼, 초코시럽까지! 제대로 초코 플렉스~\n거기에 고소한 피스타치오 분태와 피스타치오 스프레드 맛으로\n입안을 쉴 새 없이 즐겁게 하죠.\n잔망루피와 함께 낭만 있는 하루를 만끽하세요!",
+    "subTitle": "오늘의 플렉스는 잔망루피의 낭만 가득한 초코설빙으로!",
+    "nutrition": "열량(Kcal) 1260 | 당류(g) 95 | 단백질(g) 19 | 포화지방(g) 36 | 나트륨(mg) 270",
+    "allergy": "우유, 대두, 밀"
   },
   {
     "id": 4,
     "name": "생딸기설빙",
     "category": "설빙",
     "subcategory": "SPECIAL",
-    "image": "/images/special/생딸기설빙.png"
+    "thumbnail": "/images/special/생딸기설빙.png",
+    "image": "/images/product/생딸기설빙big.png",
+    "ingredients": [
+      {
+        "name": "생딸기",
+        "image": "/images/ingredient/생딸기.png"
+      },
+      {
+        "name": "찹쌀떡",
+        "image": "/images/ingredient/찹쌀떡.png"
+      },
+      {
+        "name": "딸기베이스",
+        "image": "/images/ingredient/딸기베이스.png"
+      }
+    ],
+    "description": "겨울 시즌이 되면 어김없이 등장하는 과일나라의 인기 스타, 생딸기!\n추운 겨울이 기대되는 이유는 바로 생딸기설빙 시즌이 돌아오기 때문이죠!\n설빙의 눈꽃우유와 연유를 만난 딸기의 유혹에 한 번 빠지면\n사계절 내내 겨울을 기다리게 될지도 몰라요.",
+    "subTitle": "겨울의 시작을 알리는 새빨간 딸기의 유혹",
+    "nutrition": "열량(Kcal) 780 | 당류(g) 93 | 단백질(g) 17 | 포화지방(g) 11 | 나트륨(mg) 400",
+    "allergy": "우유, 대두, 밀"
   },
   {
     "id": 5,
     "name": "순수요거생딸기설빙",
     "category": "설빙",
     "subcategory": "SPECIAL",
-    "image": "/images/special/순수요거생딸기설빙.png"
+    "thumbnail":"/images/special/순수요거생딸기설빙빙.png",
+    "image": "/images/product/순수요거생딸기설빙big.png",
+    "ingredients": [
+      {
+        "name": "생딸기",
+        "image": "/images/ingredient/생딸기.png"
+      },
+      {
+        "name": "요거트 아이스크림",
+        "image": "/images/ingredient/요거트아이스크림.png"
+      },
+      {
+        "name": "딸기베이스",
+        "image": "/images/ingredient/딸기베이스.png"
+      }
+    ],
+    "description": "새콤달콤한 요거트 아이스크림이 부드럽게 딸기를 감싸 안아주면?\n아이스크림 속에 녹아내리는 딸기의 수줍음이 입안 가득 퍼질 거예요.\n소울메이트를 만난 딸기의 설렘처럼,\n당신에게도 두근거리는 계절이 시작될지 몰라요.",
+    "subTitle": "딸기가 만난 소울메이트를 소개합니다",
+    "nutrition": "열량(Kcal) 930 | 당류(g) 128 | 단백질(g) 16 | 포화지방(g) 18 | 나트륨(mg) 250",
+    "allergy": "우유, 대두"
   },
   {
     "id": 6,
     "name": "생딸기트리설빙",
     "category": "설빙",
     "subcategory": "SPECIAL",
-    "image": "/images/special/생딸기트리설빙.png"
+    "thumbnail": "/images/special/생딸기트리설빙.png",
+    "image": "/images/product/생딸기트리설빙big.png",
+    "ingredients": [
+      {
+        "name": "생딸기",
+        "image": "/images/ingredient/생딸기.png"
+      },
+      {
+        "name": "녹차아이스크림",
+        "image": "/images/ingredient/녹차아이스크림.png"
+      },
+      {
+        "name": "딸기베이스",
+        "image": "/images/ingredient/딸기베이스.png"
+      }
+    ],
+    "description": "크리스마스 트리 같은 초록빛 녹차 아이스크림이 주위로\n빨간 생딸기가 옹기종기 모였어요!\n바삭 마시멜로우는 오너먼트처럼 대롱대롱~\n설빙 한 그릇에 담긴 크리스마스 트리를 즐겨보세요.\n탱글탱글한 생딸기와 달콤한 연유, 진한 녹차 아이스크림과 함께라면\n매일 매일 크리스마스처럼 즐거울 거예요!",
+    "subTitle": "어제도 오늘도 내일도 크리스마스하세요~!",
+    "nutrition": "열량(Kcal) 1040 | 당류(g) 129 | 단백질(g) 16 | 포화지방(g) 36 | 나트륨(mg) 300",
+    "allergy": "우유, 대두"
   },
   {
     "id": 7,
     "name": "생딸기요거초코볼설빙",
     "category": "설빙",
     "subcategory": "SPECIAL",
-    "image": "/images/special/생딸기요거초코볼설빙.png"
+    "thumbnail": "/images/special/생딸기요거초코볼설빙.png",
+    "image": "/images/product/생딸기요거초코볼설빙big.png",
+    "ingredients": [
+      {
+        "name": "생딸기",
+        "image": "/images/ingredient/생딸기.png"
+      },
+      {
+        "name": "큐브치즈케이크",
+        "image": "/images/ingredient/큐브치즈케이크.png"
+      },
+      {
+        "name": "요거트아이스크림",
+        "image": "/images/ingredient/요거트아이스크림.png"
+      },
+      {
+        "name": "초코소스",
+        "image": "/images/ingredient/초코소스.png"
+      }
+    ],
+    "description": "새콤달콤 딸기와 부드러운 큐브치즈케이크, 상큼한 요거트 아이스크림과 오독오독 초코코팅까지!\n요거트 아이스크림 위 초코코팅을 숟가락으로 톡톡 깨서 한입 가득 먹으면\n질릴 틈 없는 다채로운 맛으로 마지막 한 숟가락이 아쉬울걸요!",
+    "subTitle": "함께 먹으면 더 맛있는 조합을 한 그릇 가득 담았어요!",
+    "nutrition": "열량(Kcal) 1065 | 당류(g) 135 | 단백질(g) 15 | 포화지방(g) 28 | 나트륨(mg) 610",
+    "allergy": "달걀, 우유, 대두, 밀"
   },
   {
     "id": 8,
     "name": "하겐다즈딸기설빙",
     "category": "설빙",
     "subcategory": "SPECIAL",
-    "image": "/images/special/하겐다즈딸기설빙.png"
+    "thumbnail": "/images/special/하겐다즈딸기설빙.png",
+    "image": "/images/product/하겐다즈딸기설빙big.png",
+    "ingredients": [
+      {
+        "name": "생딸기",
+        "image": "/images/ingredient/생딸기.png"
+      },
+      {
+        "name": "하겐다즈딸기 아이스크림",
+        "image": "/images/ingredient/하겐다즈딸기아이스크림.png"
+      },
+      {
+        "name": "치즈케이크",
+        "image": "/images/ingredient/치즈케이크.png"
+      },
+      {
+        "name": "생크림",
+        "image": "/images/ingredient/생크림.png"
+      }
+    ],
+    "description": "프리미엄 하겐다즈 스트로베리 아이스크림과\n신선한 생딸기의 만남으로 탄생한 럭셔리 설빙!\n달콤한 딸기시럽과 함께 즐기는 프리미엄 디저트입니다.",
+    "subTitle": "프리미엄 하겐다즈와 설빙의 특별한 만남",
+    "nutrition": "열량(Kcal) 875 | 당류(g) 105 | 단백질(g) 15 | 포화지방(g) 23 | 나트륨(mg) 500",
+    "allergy": "달걀, 우유, 대두, 밀"
   },
   {
     "id": 9,
     "name": "ABC초코쿠키설빙",
     "category": "설빙",
     "subcategory": "SPECIAL",
-    "image": "/images/special/ABC초코쿠키설빙.png"
+    "thumbnail": "/images/special/ABC초코쿠키설빙.png",
+    "image": "/images/product/ABC초코쿠키설빙big.png",
+    "ingredients": [
+      {
+        "name": "ABC초코쿠키",
+        "image": "/images/ingredient/ABC초코쿠키.png"
+      },
+      {
+        "name": "바닐라 아이스크림",
+        "image": "/images/ingredient/바닐라아이스크림.png"
+      },
+      {
+        "name": "초코링",
+        "image": "/images/ingredient/초코링.png"
+      },
+      {
+        "name": "초코슬라이스",
+        "image": "/images/ingredient/초코슬라이스.png"
+      }
+    ],
+    "description": "달콤한 ABC초코쿠키가 설빙과 만나면?\n차원이 다른 달콤한 맛이 와르르 쏟아져요~\nABC초코쿠키, 초코링, 초코 슬라이스, 카카오 파우더, 초코 시럽까지!\n무려 5가지 초코 토핑이 모여 눈과 입이 즐거운 초코 축제를 즐겨요~",
+    "subTitle": "설빙과 ABC초코쿠키가 만나면? 더 진하고, 더 달콤하게!",
+    "nutrition": "열량(Kcal) 1285 | 당류(g) 114 | 단백질(g) 19 | 포화지방(g) 32 | 나트륨(mg) 450",
+    "allergy": "달걀, 우유, 대두, 밀"
   },
   {
     "id": 10,
     "name": "ABC초코쿠키녹차설빙",
     "category": "설빙",
     "subcategory": "SPECIAL",
-    "image": "/images/special/ABC초코쿠키녹차설빙.png"
+    "thumbnail": "/images/special/ABC초코쿠키녹차설빙.png",
+    "image": "/images/product/ABC초코쿠키녹차설빙big.png",
+    "ingredients": [
+      {
+        "name": "ABC초코쿠키",
+        "image": "/images/ingredient/ABC초코쿠키.png"
+      },
+      {
+        "name": "녹차아이스크림",
+        "image": "/images/ingredient/녹차아이스크림.png"
+      },
+      {
+        "name": "초코링",
+        "image": "/images/ingredient/초코링.png"
+      },
+      {
+        "name": "초코슬라이스",
+        "image": "/images/ingredient/초코슬라이스.png"
+      }
+    ],
+    "description": "달콤한 ABC초코쿠키가 설빙과 만나면?\n달콤한 초콜릿에 쌉싸름한 녹차 아이스크림을 더한 진리의 '맛없없' 조합이 완성돼요.\nABC초코쿠키, 초코링, 초코 슬라이스, 카카오 파우더, 초코 시럽까지!\n무려 5가지 초코 토핑이 모여 눈과 입이 즐거운 초코 축제를 즐겨요~",
+    "subTitle": "설빙과 ABC초코쿠키가 만나면? 더 진하고, 더 달콤하게!",
+    "nutrition": "열량(Kcal) 1260 | 당류(g) 121 | 단백질(g) 20 | 포화지방(g) 34 | 나트륨(mg) 440",
+    "allergy": "달걀, 우유, 대두, 밀"
   },
   {
     "id": 11,
     "name": "스윗캔디구슬설빙",
     "category": "설빙",
     "subcategory": "SPECIAL",
-    "image": "/images/special/스윗캔디구슬설빙.png"
+    "thumbnail": "/images/special/스윗캔디구슬설빙.png",
+    "image": "/images/product/스윗캔디구슬설빙big.png",
+    "ingredients": [
+      {
+        "name": "캔디프로스구슬 아이스크림",
+        "image": "/images/ingredient/캔디프로스구슬아이스크림.png"
+      },
+      {
+        "name": "건조마시멜로우",
+        "image": "/images/ingredient/건조마시멜로우.png"
+      },
+      {
+        "name": "초코링",
+        "image": "/images/ingredient/초코링.png"
+      },
+      {
+        "name": "딸기베이스",
+        "image": "/images/ingredient/딸기베이스.png"
+      }
+    ],
+    "description": "입안에서 사르르 녹아내리는 알록달록 구슬 아이스크림과\n바삭 마시멜로우와 오도독 초코링, 바닐라 아이스크림 위에 새콤달콤 딸기 베이스까지~\n눈과 입이 즐거운 화려한 디저트 파티가 열리는 구슬랜드로 떠나요!",
+    "subTitle": "환상의 구슬랜드에 오신 여러분을 환영합니다",
+    "nutrition": "열량(Kcal) 835 | 당류(g) 97 | 단백질(g) 13 | 포화지방(g) 23 | 나트륨(mg) 330",
+    "allergy": "돼지고기, 우유, 밀, 대두"
   },
   {
     "id": 12,
     "name": "초코바닐라구슬설빙",
     "category": "설빙",
     "subcategory": "SPECIAL",
-    "image": "/images/special/초코바닐라구슬설빙.png"
+    "thumbnail": "/images/special/초코바닐라구슬설빙.png",
+    "image": "/images/product/초코바닐라구슬설빙big.png",
+    "ingredients": [
+      {
+        "name": "초코바닐라구슬아이스크림",
+        "image": "/images/ingredient/초코바닐라구슬아이스크림.png"
+      },
+      {
+        "name": "건조마시멜로우",
+        "image": "/images/ingredient/건조마시멜로우.png"
+      },
+      {
+        "name": "초코링",
+        "image": "/images/ingredient/초코링.png"
+      },
+      {
+        "name": "초코소스",
+        "image": "/images/ingredient/초코소스.png"
+      }
+    ],
+    "description": "구슬랜드의 시그니처 스윗캔디구슬설빙에 대적하는 새로운 맛!\n초코바닐라 구슬 아이스크림이 와르르 쏟아지는 초코바닐라구슬설빙이에요.\n바삭 마시멜로우와 오도독 초코링, 바닐라 아이스크림 위에 달콤한 초코소스까지~\n남녀노소 모두가 좋아하는 슈퍼스타의 맛, 궁금하지 않으신가요?",
+    "subTitle": "지금 환상의 구슬랜드에서 가장 핫한 슈퍼 스타",
+    "nutrition": "열량(Kcal) 1105 | 당류(g) 95 | 단백질(g) 17 | 포화지방(g) 29 | 나트륨(mg) 330",
+    "allergy": "돼지고기, 우유, 밀, 대두"
   },
   {
     "id": 13,
     "name": "인절미설빙",
     "category": "설빙",
     "subcategory": "REGULAR",
-    "image": "/images/regular/인절미설빙.png"
+    "thumbnail": "/images/regular/인절미설빙.png",
+    "image": "/images/product/인절미설빙big.png",
+    "ingredients": [
+      {
+        "name": "콩가루",
+        "image": "/images/ingredient/콩가루.png"
+      },
+      {
+        "name": "인절미떡",
+        "image": "/images/ingredient/인절미떡.png"
+      },
+      {
+        "name": "아몬드 슬라이스",
+        "image": "/images/ingredient/아몬드슬라이스.png"
+      }
+    ],
+    "description": "누군가 설빙의 근본을 묻거든 인절미설빙을!\n사르르 녹아내리는 우유 눈꽃과 콩가루, 아몬드, 쫄깃한 인절미를 더한 최초의 설빙이죠.\n설빙의 근본을 이루는 맛으로, 남녀노소 누구나 즐기기 좋아요.\n한 번 빠지면 헤어 나올 수 없는 인절미빙수의 매력을 느껴보세요!",
+    "subTitle": "우유 눈꽃 위에 쌓인 인절미 가루의 고소한 행복, 설빙의 시그니처!",
+    "nutrition": "열량(Kcal) 510 | 당류(g) 47 | 단백질(g) 20 | 포화지방(g) 10 | 나트륨(mg) 220",
+    "allergy": "우유, 대두, 밀"
   },
   {
     "id": 14,
     "name": "팥인절미설빙",
     "category": "설빙",
     "subcategory": "REGULAR",
-    "image": "/images/regular/팥인절미설빙.png"
+    "thumbnail": "/images/regular/팥인절미설빙.png",
+    "image": "/images/product/팥인절미설빙big.png",
+    "ingredients": [
+      {
+        "name": "콩가루",
+        "image": "/images/ingredient/콩가루.png"
+      },
+      {
+        "name": "빙수팥",
+        "image": "/images/ingredient/빙수팥.png"
+      },
+      {
+        "name": "인절미떡",
+        "image": "/images/ingredient/인절미떡.png"
+      }
+    ],
+    "description": "달달하고 오동통한 통단팥과 부드러운 인절미설빙이\n익숙한 듯 색다른 부드러움을 선사합니다.\n사르르 녹아내리는 눈꽃 우유와 통단팥 위로\n쫀득쫀득 씹히는 인절미의 식감이 지루할 틈 없이 즐거운 순간을 선사해요.",
+    "subTitle": "인절미설빙에 달콤한 팥을 더하면? 더 맛있지!",
+    "nutrition": "열량(Kcal) 710 | 당류(g) 76 | 단백질(g) 26 | 포화지방(g) 14 | 나트륨(mg) 330",
+    "allergy": "우유, 대두, 밀"
   },
   {
     "id": 15,
     "name": "인절미아이스크림설빙",
     "category": "설빙",
     "subcategory": "REGULAR",
-    "image": "/images/regular/인절미아이스크림설빙.png"
+    "thumbnail": "/images/regular/인절미아이스크림설빙.png",
+    "image": "/images/product/인절미아이스크림설빙big.png",
+    "ingredients": [
+      {
+        "name": "콩가루",
+        "image": "/images/ingredient/콩가루.png"
+      },
+      {
+        "name": "인절미 아이스크림",
+        "image": "/images/ingredient/인절미아이스크림.png"
+      },
+      {
+        "name": "인절미떡",
+        "image": "/images/ingredient/인절미떡.png"
+      }
+    ],
+    "description": "설빙의 시그니처 '인절미설빙'의 고소한 맛을 두 배로 즐기는 법은?\n잔뜩 뿌려진 콩가루 위로 인절미 아이스크림까지 올라간 인절미아이스크림설빙을 맛보는 것!\n진한 인절미 아이스크림을 함께 먹으면 더욱 달콤하고 고소한 맛이 입안 가득 행복을 선사할 거예요.",
+    "subTitle": "이건 그냥 인절미 빙수가 아니에요",
+    "nutrition": "열량(Kcal) 680 | 당류(g) 65 | 단백질(g) 24 | 포화지방(g) 14 | 나트륨(mg) 265",
+    "allergy": "우유, 대두, 밀"
   },
   {
     "id": 16,
     "name": "애플망고치즈설빙",
     "category": "설빙",
     "subcategory": "REGULAR",
-    "image": "/images/regular/애플망고치즈설빙.png"
+    "thumbnail": "/images/regular/애플망고치즈설빙.png",
+    "image": "/images/product/애플망고치즈설빙big.png",
+    "ingredients": [
+      {
+        "name": "애플망고",
+        "image": "/images/ingredient/애플망고.png"
+      },
+      {
+        "name": "큐브치즈케이크",
+        "image": "/images/ingredient/큐브치즈케이크.png"
+      },
+      {
+        "name": "요거트 아이스크림",
+        "image": "/images/ingredient/요거트아이스크림.png"
+      }
+    ],
+    "description": "첫 스푼을 떠서 입에 넣는 순간, 신선한 애플망고의 과즙이 입안 가득 퍼집니다\n상큼하고 달콤한 망고의 향기가 당신을 유혹해요.\n그 아래 숨어있는 부드럽고 고소한 큐브치즈케이크의 진한 풍미와\n크리미하면서도 상큼한 요거트 아이스크림으로 달콤하고 설레는 하루를 보내세요.",
+    "subTitle": "모두가 사랑하는 설빙의 베스트셀러",
+    "nutrition": "열량(Kcal) 910 | 당류(g) 116 | 단백질(g) 19 | 포화지방(g) 19 | 나트륨(mg) 350",
+    "allergy": "달걀, 우유, 대두, 밀"
   },
   {
     "id": 17,
     "name": "초코브라우니설빙",
     "category": "설빙",
     "subcategory": "REGULAR",
-    "image": "/images/regular/초코브라우니설빙.png"
+    "thumbnail": "/images/regular/초코브라우니설빙.png",
+    "image": "/images/product/초코브라우니설빙big.png",
+    "ingredients": [
+      {
+        "name": "큐브브라우니",
+        "image": "/images/ingredient/큐브브라우니.png"
+      },
+      {
+        "name": "큐브치즈케이크",
+        "image": "/images/ingredient/큐브치즈케이크.png"
+      },
+      {
+        "name": "생크림",
+        "image": "/images/ingredient/생크림.png"
+      },
+      {
+        "name": "초코소스",
+        "image": "/images/ingredient/초코소스.png"
+      }
+    ],
+    "description": "차가운 우유 얼음에 쫀득한 큐브브라우니와 큐브치즈케이크를 넣은,\n익숙하면서 새로운 조합이죠! 빙수 꼭대기를 화려하게 장식한 생크림과\n그 위로 흐르는 초코 소스는 어느 초코 왕국의 화려한 궁전을 연상시켜요.\n시원하고 달콤한 행복을 선사하는 초코 왕국으로 떠나봐요!",
+    "subTitle": "부드럽고 달콤한 케이크와 우유는 언제나 필승 조합",
+    "nutrition": "열량(Kcal) 1160 | 당류(g) 64 | 단백질(g) 21 | 포화지방(g) 26 | 나트륨(mg) 500",
+    "allergy": "달걀, 우유, 대두, 밀, 아황산류"
   },
   {
     "id": 18,
     "name": "오레오초코몬스터설빙",
     "category": "설빙",
     "subcategory": "REGULAR",
-    "image": "/images/regular/오레오초코몬스터설빙.png"
+    "thumbnail": "/images/regular/오레오초코몬스터설빙.png",
+    "image": "/images/product/오레오초코몬스터설빙big.png",
+    "ingredients": [
+      {
+        "name": "바닐라 아이스크림",
+        "image": "/images/ingredient/바닐라아이스크림.png"
+      },
+      {
+        "name": "오레오쿠키",
+        "image": "/images/ingredient/오레오쿠키.png"
+      },
+      {
+        "name": "생크림",
+        "image": "/images/ingredient/생크림.png"
+      },
+      {
+        "name": "초코소스",
+        "image": "/images/ingredient/초코소스.png"
+      }
+    ],
+    "description": "바삭한 오레오쿠키와 부드러운 생크림 안에 숨어있던 바닐라 아이스크림까지\n진한 카카오 파우더와 초코 소스를 버무려 한 입만 먹어도 도파민이 폭발할 거예요.\n아무리 우울한 날에도 오레오초코몬스터와 함께라면 정신이 번쩍!\n달콤한 오레오초코몬스터설빙으로 웃음이 끊이지 않는 만남을 완성해 보세요.",
+    "subTitle": "몬스터의 도파민 폭탄을 조심하세요",
+    "nutrition": "열량(Kcal) 1345 | 당류(g) 111 | 단백질(g) 23 | 포화지방(g) 29 | 나트륨(mg) 720",
+    "allergy": "우유, 대두, 밀"
   },
   {
     "id": 19,
     "name": "순수요거블루베리설빙",
     "category": "설빙",
     "subcategory": "REGULAR",
-    "image": "/images/regular/순수요거블루베리설빙.png"
+    "thumbnail": "/images/regular/순수요거블루베리설빙.png",
+    "image": "/images/product/순수요거블루베리설빙big.png",
+    "ingredients": [
+      {
+        "name": "블루베리",
+        "image": "/images/ingredient/블루베리.png"
+      },
+      {
+        "name": "요거트 아이스크림",
+        "image": "/images/ingredient/요거트아이스크림.png"
+      },
+      {
+        "name": "시리얼",
+        "image": "/images/ingredient/시리얼.png"
+      },
+      {
+        "name": "블루베리베이스",
+        "image": "/images/ingredient/블루베리베이스.png"
+      }
+    ],
+    "description": "산처럼 쌓아 올린 요거트 아이스크림 위에 블루베리를 가득 올려 상큼함을 더했습니다.\n새콤달콤 블루베리설빙 위에 보랏빛의 블루베리 베이스가 내리면?\n한 입만으로도 환해지는 마법 같은 일들이 일어날 거예요.",
+    "subTitle": "이 빙수의 새하얀 눈은 요거트 맛이에요",
+    "nutrition": "열량(Kcal) 985 | 당류(g) 149 | 단백질(g) 14 | 포화지방(g) 15 | 나트륨(mg) 420",
+    "allergy": "우유, 대두"
   },
   {
     "id": 20,
     "name": "티라미수설빙",
     "category": "설빙",
     "subcategory": "REGULAR",
-    "image": "/images/regular/티라미수설빙.png"
+    "thumbnail": "/images/regular/티라미수설빙.png",
+    "image": "/images/product/티라미수설빙big.png",
+    "ingredients": [
+      {
+        "name": "티라미수케이크",
+        "image": "/images/ingredient/티라미수케이크.png"
+      },
+      {
+        "name": "에스프레소",
+        "image": "/images/ingredient/에스프레소.png"
+      },
+      {
+        "name": "초코슬라이스",
+        "image": "/images/ingredient/초코슬라이스.png"
+      },
+      {
+        "name": "카라멜소스",
+        "image": "/images/ingredient/카라멜소스.png"
+      }
+    ],
+    "description": "티라미수 한 조각을 통 크게 올려 부드럽고 진한 달콤함을 완성했어요.\n초코 슬라이스를 뿌리고 카카오 파우더로 마무리한, 쌉싸름한 티라미수설빙!\n갓 추출한 에스프레소를 직접 부어 먹는 재미는 덤이에요~\n깊고 진한 감동이 혀끝에서 은은하게 피어나는 순간을 기대하세요.",
+    "subTitle": "깊게 스미는 진한 달콤함, 티라미수설빙의 황홀한 순간",
+    "nutrition": "열량(Kcal) 985 | 당류(g) 90 | 단백질(g) 20 | 포화지방(g) 29 | 나트륨(mg) 460 | 카페인(mg) 96",
+    "allergy": "달걀, 우유, 대두, 밀, 쇠고기"
   },
   {
     "id": 21,
     "name": "치즈설빙",
     "category": "설빙",
     "subcategory": "REGULAR",
-    "image": "/images/regular/치즈설빙.png"
+    "thumbnail": "/images/regular/치즈설빙.png",
+    "image": "/images/product/치즈설빙big.png",
+    "ingredients": [
+      {
+        "name": "파마산치즈",
+        "image": "/images/ingredient/파마산치즈.png"
+      },
+      {
+        "name": "큐브치즈케이크",
+        "image": "/images/ingredient/큐브치즈케이크.png"
+      },
+      {
+        "name": "바닐라 아이스크림",
+        "image": "/images/ingredient/바닐라아이스크림.png"
+      }
+    ],
+    "description": "부드러운 눈꽃 우유 사이사이로 치즈가 겹겹이 숨어있어요!\n한 입, 한 입 먹을 때마다 치즈의 색다른 모먼트를 맛볼 수 있답니다.\n여기에 한 입 크기의 큐브치즈케이크를 더하면\n단짠단짠 치즈케이크 맛 빙수 완성!",
+    "subTitle": "치즈케이크일까요? 빙수일까요?",
+    "nutrition": "열량(Kcal) 790 | 당류(g) 69 | 단백질(g) 18 | 포화지방(g) 23 | 나트륨(mg) 590",
+    "allergy": "달걀, 우유, 대두, 밀"
   },
   {
     "id": 22,
