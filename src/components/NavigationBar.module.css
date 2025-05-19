@@ -9,7 +9,7 @@
 
 .topnav .menu {
   display: flex !important;
-  padding: 0 0 0 80px;
+  padding: 0 0 0 100px;
 }
 
 /* Style the links inside the navigation bar */
@@ -18,7 +18,7 @@
   color: #fff0d3;
   text-align: center;
   text-decoration: none;
-  padding: 14px 32px;
+  padding: 14px 35px;
   font-family: "neulis-neue";
   font-size: 18px;
   font-weight: 700;

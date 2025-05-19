@@ -21,9 +21,7 @@ export default function MenuList({ category }) {
               <li key={item.id}>
                 <Link href={`/menu/${item.id}`} className="item">
                   <img
-                    src={encodeURI(
-                      item.image.endsWith('.png') ? item.image : item.image + '.png'
-                    )}
+                    src={item.thumbnail}
                     alt={item.name}
                   />
                   <p>{item.name}</p>
