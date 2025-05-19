@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
-
 .container{
   background: #fffef0;
 }
@@ -40,4 +39,48 @@
 .newsArea .newsTitle {
   text-align: center;
   margin-bottom: 80px;
+}
+.newsArea .noticeList {
+  display: flex;
+  gap: 35px;
+  list-style: none;
+  
+}
+.newsArea .noticeList .thumbItem {
+  display: block;
+  border: 1px solid #f3f3f3;
+  background: #FFFFFF;
+  border-radius: 15px;
+  overflow: hidden;
+  text-decoration: none;
+}
+.newsArea .noticeList .thumbItem .thumb {
+  overflow: hidden;
+  width: 322px;
+  height: 324px;
+  overflow: hidden;
+}
+.newsArea .noticeList .thumbItem .thumb img {
+  width: 100%;
+}
+.newsArea .noticeList .thumbItem .textArea {
+  display: flex;
+  padding: 0 30px;
+  justify-content: center;
+  flex-direction: column;
+  height: 120px;
+}
+.newsArea .noticeList .thumbItem .textArea .title {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 24px;
+  color: #121212;
+  font-weight: 700;
+  width: 260px;
+}
+.newsArea .noticeList .thumbItem .textArea .date {
+  margin-top: 7px;
+  font-size: 12px;
+  color: #909090;
 }
