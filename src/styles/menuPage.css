@@ -145,6 +145,12 @@ body {
   font-size: 18px;
   font-weight: 500;
   color: #121212;
+  text-align: center;
+  text-decoration: none;
+}
+
+.menuList li a {
+  text-decoration: none;
 }
 
 .menuList li .badge-new {

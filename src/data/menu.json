@@ -121,7 +121,7 @@
     "name": "순수요거생딸기설빙",
     "category": "설빙",
     "subcategory": "SPECIAL",
-    "thumbnail":"/images/special/순수요거생딸기설빙빙.png",
+    "thumbnail":"/images/special/순수요거생딸기설빙.png",
     "image": "/images/product/순수요거생딸기설빙big.png",
     "ingredients": [
       {
@@ -720,7 +720,7 @@
   },
   {
     "id": 32,
-    "name": "한입 쏙 붕어빵(슈크림)",
+    "name": "한입 쏙 붕어빵\n(슈크림)",
     "category": "사이드",
     "subcategory": "SIDE",
     "thumbnail": "/images/side/한입쏙붕어빵슈크림.png",
@@ -732,10 +732,10 @@
   },
   {
     "id": 33,
-    "name": "한입 쏙 붕어빵(자색고구마)",
+    "name": "한입 쏙 붕어빵\n(자색고구마)",
     "category": "사이드",
     "subcategory": "SIDE",
-    "thumbnail": "/images/side/한입쏙붕어빵자색고구마마.png",
+    "thumbnail": "/images/side/한입쏙붕어빵자색고구마.png",
     "image": "/images/product/한입쏙붕어빵(자색고구마)big.png",
     "description": "자색 고구마를 닮은 붕어빵 속에는\n스윗한 고구마 크림을 가득 넣어 크림이\n입안에서 고구마의 달콤함이 은은하게 퍼질 거예요.",
     "subTitle": "보랏빛 붕어빵의 정체를 공개합니다!",
@@ -744,7 +744,7 @@
   },
   {
     "id": 34,
-    "name": "한입 쏙 붕어빵(피자)",
+    "name": "한입 쏙 붕어빵\n(피자)",
     "category": "사이드",
     "subcategory": "SIDE",
     "thumbnail": "/images/side/한입쏙붕어빵피자.png",

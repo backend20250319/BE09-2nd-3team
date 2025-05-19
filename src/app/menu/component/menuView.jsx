@@ -94,7 +94,14 @@ export default function MenuView({ menu }) {
               <img src={menu.image} alt={menu.name} />
             </div>
             <div className="textArea" key={menu.id + '-text'}>
-              <div className="productTitle">{menu.name}</div>
+              <div className="productTitle">
+                {menu.name.split('\n').map((word, index) => (
+                  <span key={index}>
+                    {word}
+                    <br />
+                  </span>
+                ))}
+              </div>
               <ul className="thumb">
                 {menu.ingredients?.map((item, index) => (
                   <li key={menu.id + '-ingredient-' + index}>
