@@ -308,6 +308,19 @@ export default function PrivacyPolicy() {
               </tbody>
             </table>
             <br />
+            개인정보침해에 대한 신고·상담이 필요하신 경우에는
+            개인정보보호책임자에 전화 또는 서면, 이메일 주소로 연락하시거나,
+            한국인터넷진흥원(KISA)내 개인정보침해신고센터로 문의하시기 바랍니다.
+            <br />
+            [개인정보침해신고센터] 전화 : 118 / URL : www.118.or.kr
+            <br />
+            [대검찰청 사이버수사과] 전화 : 1301 / URL : www.spo.go.kr
+            <br />
+            [경찰청 사이버안전국] 전화 : 182 / URL : cyberbureau.police.go.kr
+            <br />
+            [개인정보 분쟁조정위원회] 전화 : 02-2100-2499 / URL :
+            www.kopico.go.kr
+            <br />
             <br />
             <div className={styles.stitle}>부칙</div>현 개인정보처리방침은
             2025년 04월 01일부터 적용되며, 법령정책 또는 보안기술의 변경에 따라
@@ -316,6 +329,7 @@ export default function PrivacyPolicy() {
             페이지를 통해 변경이유 및 내용 등을 공지합니다. 본
             개인정보처리방침의 내용은 수시로 변경될 수 있으므로 사이트를
             방문하실 때마다 이를 확인하시기 바랍니다.
+            <br />
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@ import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import styles from "./news.module.css"
 
-export default function layout({ children }) {
+export default function Layout({ children }) {
   const pathname = usePathname();
   
   const handleClick = (href) => {
