@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+
 .container {
   background: #fffef0;
 }
@@ -152,4 +153,142 @@
 }
 .faqList .item .faqContent .aCon {
   white-space: pre-wrap;
+}
+
+/* 온라인 고객센터 */
+.newsArea .newsTitle {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.onlineCenterTxt {
+  font-size: 25px;
+  color: #42120e;
+  line-height: 1.5;
+  text-align: center;
+  margin: -40px 0 75px 0;
+}
+.customerInputArea {
+  width: 615px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.customerInputArea ~ .customerInputArea {
+  margin-top: 35px;
+}
+.customerInputArea .inputItem {
+  background: #f0f0f0;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+.customerInputArea .inputItem .label {
+  flex: none;
+  width: 192px;
+  height: 28px;
+  border-right: 2px solid #6a6a6a;
+  padding-left: 30px;
+  font-size: 25px;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+.customerInputArea .inputItem .inputArea {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  padding: 0 30px;
+}
+.customerInputArea .inputItem .inputArea .input {
+  flex: 1;
+  border-radius: 0;
+  width: 100%;
+  background: transparent;
+  font-size: 21px;
+}
+
+/* 온라인 상담내역 */
+.maintell {
+  text-align: center;
+  background-color: #fefbee;
+  padding-bottom: 5vw;
+}
+
+.title img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.text {
+  font-size: 28px;
+  color: #42120e;
+  line-height: 1.6;
+  margin: 20px 0 60px;
+}
+
+.box {
+  background: #f3e3da;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 30px;
+  max-width: 750px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  flex-wrap: nowrap;
+}
+
+.label1 {
+  width: 90px;
+  font-size: 24px;
+  text-align: left;
+  color: #333;
+  display: flex;
+}
+
+.inputSingle {
+  flex: 0.73;
+  height: 45px;
+  font-size: 18px;
+  padding: 0 10px;
+  border: 2px solid #b99089;
+  background: #fff;
+  min-width: 0;
+}
+
+.inputPhoneGroup {
+  display: flex;
+  gap: 8px;
+  flex: 1;
+}
+
+.inputPhone {
+  width: 100px;
+  height: 45px;
+  font-size: 18px;
+  padding: 0 10px;
+  border: 2px solid #b99089;
+  background: #fff;
+  flex: auto;
+}
+
+.confirmBtn {
+  background: #84352a;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 30px;
+  padding: 0 40px;
+  height: 45px;
+  cursor: pointer;
 }
