@@ -32,7 +32,7 @@ export default function layout({ children }) {
             </div>
           </div>
         </header>
-        <body>{children}</body>
+        <main>{children}</main>
         <footer></footer>
       </div>
     </div>
