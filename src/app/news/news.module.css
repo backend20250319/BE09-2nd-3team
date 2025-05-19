@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
-.container{
+.container {
   background: #fffef0;
 }
 .container .contentArea {
@@ -43,12 +43,11 @@
   display: flex;
   gap: 35px;
   list-style: none;
-  
 }
 .newsArea .noticeList .thumbItem {
   display: block;
   border: 1px solid #f3f3f3;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 15px;
   overflow: hidden;
   text-decoration: none;
@@ -82,4 +81,75 @@
   margin-top: 7px;
   font-size: 12px;
   color: #909090;
+}
+
+/* FAQ */
+.newsArea .newsTitle {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.faqList {
+  border-top: 2px solid #ae7875;
+  width: 950px;
+  margin: 80px auto 0 auto;
+  list-style: none;
+}
+.faqList .item {
+  border-bottom: 2px solid #ae7875;
+  padding: 0px 70px 0 30px;
+  text-align: left;
+  position: relative;
+}
+.faqList .item:after {
+  content: "";
+  background: url("/images/news/ico_arrow.png") no-repeat center center;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 38px;
+  top: 34px;
+  transition: 0.3s all;
+}
+.faqList .item.on {
+  background: #ffffff;
+}
+.faqList .item.on:after {
+  transform: rotate(180deg);
+}
+.faqList .item .faqTitle {
+  width: 100%;
+  text-align: left;
+  font-size: 25px;
+  color: #42120e;
+  line-height: 1;
+  padding: 30px 0;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+.faqList .item .faqContent {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  font-size: 20px;
+  color: #8c8c8c;
+  line-height: 1.5;
+  position: relative;
+  padding: 0 0 0 25px;
+  transition: max-height 0.4s ease, opacity 0.4s ease, padding 0.4s ease;
+}
+.faqList .item .faqContent.on {
+  max-height: 500px;
+  opacity: 1;
+  padding: 0 0 30px 25px;
+}
+.faqList .item .faqContent .a {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.faqList .item .faqContent .aCon {
+  white-space: pre-wrap;
 }
