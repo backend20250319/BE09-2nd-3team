@@ -1,5 +1,15 @@
 # 🍧설빙 클론 프로젝트 보고서
-![image](https://github.com/user-attachments/assets/1ead360e-ba8a-49e7-8c9d-95b4ad0edc9f)
+<b>Main 페이지</b>
+![image](https://github.com/user-attachments/assets/08eb221a-5dd8-43b0-8078-34c3728b3833)
+<b>Brand 페이지</b>
+![image](https://github.com/user-attachments/assets/f303ee5d-15a1-4147-a275-c470f73903b7)
+<b>Menu 페이지</b>
+![image](https://github.com/user-attachments/assets/c9be59c7-c5db-4d7a-8b2d-3fe7416036bf)
+<b>Menu 상세페이지</b>
+![image](https://github.com/user-attachments/assets/9f64d42e-72ff-4718-b50a-e887478f968e)
+
+
+
 ### 완성 프로젝트 URL⬇️
 
 ---
