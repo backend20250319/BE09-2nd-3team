@@ -1,7 +1,12 @@
+'use client'
+
 import Image from "next/image"
 import Link from "next/link"
 import styles from "./MenuSection.module.css"
 import menuData from "@/data/menu.json"
+import { Swiper, SwiperSlide } from 'swiper/react'
+import 'swiper/css'
+import 'swiper/css/free-mode'
 
 export default function MenuSection({ menuIds }) {
   const menuItems = menuData.filter(item => menuIds.includes(item.id))
@@ -22,21 +27,28 @@ export default function MenuSection({ menuIds }) {
             </div>
           </div>
           <div className={styles.menuContainer}>
-            <div className={styles.menuList}>
+            <Swiper
+              freeMode={true}
+              slidesPerView="auto"
+              spaceBetween={15}
+              className={styles.menuList}
+            >
               {menuItems.map((item) => (
-                <Link href={`/menu/menu_view?menu=${item.id}`} className={styles.menuItem} key={item.id}>
-                  <Image
-                    src={item.image || "/placeholder.svg"}
-                    alt={item.name}
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: "100%", height: "auto" }}
-                  />
-                  <span className={styles.menuName}>{item.name}</span>
-                </Link>
+                <SwiperSlide key={item.id} className={styles.menuSlide}>
+                  <Link href={`/menu/menu_view?menu=${item.id}`} className={styles.menuItem}>
+                    <Image
+                      src={item.image || "/placeholder.svg"}
+                      alt={item.name}
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "100%", height: "auto" }}
+                    />
+                    <span className={styles.menuName}>{item.name}</span>
+                  </Link>
+                </SwiperSlide>
               ))}
-            </div>
+            </Swiper>
           </div>
         </div>
       </div>
