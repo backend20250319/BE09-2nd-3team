@@ -148,3 +148,5 @@
 # 테스트 케이스 및 결과서
 
 # 폴더 구조
+![image](https://github.com/user-attachments/assets/cdc2e570-ac8f-446b-aa94-12d6f6649485)
+
