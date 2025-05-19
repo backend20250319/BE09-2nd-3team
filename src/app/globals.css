@@ -8,9 +8,9 @@
 @tailwind utilities;
 
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -19,19 +19,4 @@ body {
 
 .wrap {
   min-width: 1600px;
-}
-
-a:link,
-a:visited,
-a:hover,
-a:active,
-a:focus {
-  text-decoration: none;
-}
-
-p {
-  color: #121212;
-  margin-block: 1em;
-  font-size: 22px;
-  line-height: 1.7;
 }
