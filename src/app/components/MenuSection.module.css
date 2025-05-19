@@ -39,23 +39,32 @@ a:link, a:visited, a:hover, a:active, a:focus {
 
 .menuContainer {
   flex: 1;
-  overflow-x: auto;
   width: calc(100% - 234px);
   height: 397px;
   margin: 63px 0 0 0;
-  /* 스크롤바 숨기기 */
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE and Edge */
-}
-
-.menuContainer::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Opera */
 }
 
 .menuList {
-  display: flex;
-  gap: 1rem;
-  min-width: max-content;
+  width: 100%;
+  height: 100%;
+}
+
+.menuSlide {
+  width: auto !important;
+}
+
+.menuList :global(.swiper-pagination) {
+  bottom: 0;
+}
+
+.menuList :global(.swiper-button-next),
+.menuList :global(.swiper-button-prev) {
+  color: #000;
+}
+
+.menuList :global(.swiper-button-next:after),
+.menuList :global(.swiper-button-prev:after) {
+  font-size: 24px;
 }
 
 .menuItem {
