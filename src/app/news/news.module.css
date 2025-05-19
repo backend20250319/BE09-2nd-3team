@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+
+.container{
+  background: #fffef0;
+}
+.container .contentArea {
+  width: 1380px;
+  margin: 0 auto;
+  padding: 105px 0;
+}
+.subTab {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 90px;
+}
+.subTab .inner {
+    position: relative;
+}
+.subTab .inner .tabLink {
+    display: flex;
+}
+.subTab .inner .tabLink .tab {
+    font-family: "Sandoll GyeokdongGL2";
+    display: block;
+    height: 100%;
+    font-size: 22px;
+    padding: 0 42px;
+    color: #873635;
+    line-height: 1;
+    text-decoration: none;
+}
+.subTab .inner .tabLink .tab.on {
+  font-weight: 600;
+}
+.subTab .inner .tabLink .tab ~ .tab {
+  border-left: 2px solid #873635;
+}
+
+/* 공지사항 */
+.newsArea .newsTitle {
+  text-align: center;
+  margin-bottom: 80px;
+}
