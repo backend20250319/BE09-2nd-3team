@@ -4,14 +4,62 @@
     "name": "자.망.코.설빙",
     "category": "설빙",
     "subcategory": "SPECIAL",
-    "image": "/images/special/자.망.코.설빙.png"
+    "thumbnail": "/images/special/자.망.코.설빙.png",
+    "image": "/images/product/자.망.코.설빙big.png",
+    "ingredients": [
+      {
+        "name": "애플망고",
+        "image": "/images/ingredient/애플망고.png"
+      },
+      {
+        "name": "자몽과육",
+        "image": "/images/ingredient/자몽과육.png"
+      },
+      {
+        "name": "코코넛펄",
+        "image": "/images/ingredient/코코넛펄.png"
+      },
+      {
+        "name": "망고요거트 아이스크림",
+        "image": "/images/ingredient/망고요거트아이스크림.png"
+      }
+    ],
+    "description": "설빙의 여름을 책임질 자.망.코.설빙이 찾아왔어요.\n달콤한 망고와 상큼한 자몽, 부드러운 망고 요거트 아이스크림 위에 쫀득쫀득한 코코넛 펄까지!\n열대섬으로 이동한 듯 입안에서 햇살과 파도가 펼쳐지는 기분이에요!\n자.망.코.설빙의 청량함을 만끽할 Flavor Trip, 함께할까요?",
+    "subTitle": "Welcome To 자.망.코. ISLAND",
+    "nutrition": "열량(Kcal) 715 | 당류(g) 93 | 단백질(g) 10 | 포화지방(g) 14 | 나트륨(mg) 150",
+    "allergy": "우유, 달걀, 대두"
   },
+  
+  
   {
     "id": 2,
     "name": "잔망루피낭만딸기설빙",
     "category": "설빙",
     "subcategory": "SPECIAL",
-    "image": "/images/special/잔망루피낭만딸기설빙.png"
+    "thumbnail": "/images/special/잔망루피낭만딸기설빙.png",
+    "image": "/images/product/잔망루피낭만딸기설빙big.png",
+    "ingredients": [
+      {
+        "name": "생딸기",
+        "image": "/images/ingredient/생딸기.png"
+      },
+      {
+        "name": "피스타치오 스프레드",
+        "image": "/images/ingredient/피스타치오스프레드.png"
+      },
+      {
+        "name": "라즈베리퓨레",
+        "image": "/images/ingredient/라즈베리퓨레.png"
+      },
+      {
+        "name": "크림샌드분태",
+        "image": "/images/ingredient/크림샌드분태.png"
+      }
+    ],
+    "description": "과즙이 팡팡 터지는 생딸기에\n피스타치오 스프레드를 두르고 잘게 자른 피스타치오를 올려, 고소한 맛을 선사해요!\n상큼한 라즈베리 퓨레는 축 처진 기분을 끌어올리죠.\n사랑을 속삭이듯 부드럽게 입안을 감싸는 맛으로,\n잔망루피와 함께 낭만 있는 하루를 만끽하세요!",
+    "subTitle": "\"해-삐\"한 잔망루피의 손길이 더해진 딸기설빙",
+    "nutrition": "열량(Kcal) 930 | 당류(g) 108 | 단백질(g) 15 | 포화지방(g) 22 | 나트륨(mg) 220",
+    "allergy": "우유, 대두, 밀"
   },
   {
     "id": 3,
