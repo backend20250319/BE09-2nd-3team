@@ -46,53 +46,55 @@ function addStores(map) {
       position: new window.kakao.maps.LatLng(store.location.lat, store.location.lng),
       title: store.title,
     })
+
+    const contentHTML = createStoreInfoHTML(store)
     const infowindow = new window.kakao.maps.InfoWindow({
-      content: createStoreInfoHTML(store),
+      content: contentHTML,
     })
-    window.kakao.maps.event.addListener(marker, "mouseover", () => {
+
+    window.kakao.maps.event.addListener(marker, "click", () => {
       infowindow.open(map, marker)
+
+      // InfoWindow DOM 삽입 후 실행되도록 delay
       setTimeout(() => {
-        const closeBtn = document.querySelector(`.${styles.btnStoreClose}`)
-        if (closeBtn) {
-          closeBtn.addEventListener("click", (e) => {
-            e.preventDefault()
-            infowindow.close()
-          })
+        const id = getStoreInfoWindowId(store)
+        const container = document.getElementById(id)
+        if (container) {
+          const closeBtn = container.querySelector(`.${styles.btnStoreClose}`)
+          if (closeBtn) {
+            closeBtn.addEventListener("click", (e) => {
+              e.preventDefault()
+              infowindow.close()
+            })
+          }
         }
       }, 0)
     })
-    window.kakao.maps.event.addListener(marker, "mouseout", () => infowindow.close())
   })
 }
 
 function createStoreInfoHTML(store) {
+  const id = getStoreInfoWindowId(store)
+
   return `
-    <div class="${styles.storeInfo}">
+    <div class="${styles.storeInfo}" id="${id}">
       <a href="#" class="${styles.btnStoreClose}">
-        <img src="/images/btn_close_o.png">
+        <img src="/images/btn_close_o.png" alt="닫기">
       </a>
       <div class="${styles.title}">
         <div class="${styles.logo}"><img src="/images/pc/store_logo.png" alt="sulbing"></div>
         <div class="${styles.store}">${store.title}</div>
       </div>
       <ul class="${styles.storeInfoText}">
-        <li>
-          <strong class="${styles.tit}">매장주소</strong>
-          <div class="${styles.con}">${store.address}</div>
-        </li>
-        <li>
-          <strong class="${styles.tit}">전화번호</strong>
-          <div class="${styles.con}">${store.phone}</div>
-        </li>
-        <li>
-          <strong class="${styles.tit}">운영시간</strong>
-          <div class="${styles.con}">${store.openingHours || '-'}</div>
-        </li>
-        <li>
-          <strong class="${styles.tit}">배달주문</strong>
-          <div class="${styles.con}">${store.isDeliveryAvailable ? '가능' : '불가능'}</div>
-        </li>
+        <li><strong class="${styles.tit}">매장주소</strong><div class="${styles.con}">${store.address}</div></li>
+        <li><strong class="${styles.tit}">전화번호</strong><div class="${styles.con}">${store.phone}</div></li>
+        <li><strong class="${styles.tit}">운영시간</strong><div class="${styles.con}">${store.openingHours || '-'}</div></li>
+        <li><strong class="${styles.tit}">배달주문</strong><div class="${styles.con}">${store.isDeliveryAvailable ? '가능' : '불가능'}</div></li>
       </ul>
     </div>
   `
+}
+
+function getStoreInfoWindowId(store) {
+  return `infowindow-${store.title.replace(/\s/g, "-")}`
 }
