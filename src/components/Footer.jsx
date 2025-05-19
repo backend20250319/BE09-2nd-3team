@@ -14,7 +14,10 @@ export default function Footer() {
           alt="PC 푸터"
         />
 
-        <a href="" className={styles.link1} />
+        <a
+          href="https://sulbing.com/news/onlinecenter.php"
+          className={styles.link1}
+        />
         <Link href="/rule/privacy" className={styles.link2}></Link>
         <Link href="/rule/email-legal" className={styles.link3}></Link>
         <Link href="/rule/legal-notice" className={styles.link4}></Link>
