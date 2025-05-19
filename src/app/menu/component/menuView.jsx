@@ -56,7 +56,7 @@ export default function MenuView({ menu }) {
     };
   }, []);
 
-  const filteredMenus = menuList.filter((m) => m.category === '설빙');
+  const filteredMenus = menuList.filter((m) => m.category === menu.category);
 
   return (
     <div className="container menuView">
@@ -78,7 +78,7 @@ export default function MenuView({ menu }) {
                         window.location.href = `/menu/${m.id}`;
                       }}
                     >
-                      <img src={`/images/special/${m.name}.png`} alt={m.name} />
+                      <img src={m.thumbnail} alt={m.name} />
                     </button>
                   </div>
                 ))}
