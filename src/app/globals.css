@@ -17,6 +17,10 @@ body {
   font-family: "Noto Sans KR", sans-serif;
 }
 
+a:link, a:visited, a:hover, a:active, a:focus {
+  text-decoration: none;
+}
+
 .wrap {
   min-width: 1600px;
 }
