@@ -11,6 +11,23 @@
   line-height: 1.7;
 }
 
+.container {
+  background: #fffef0;
+}
+
+.container :global(*) {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container :global(p) {
+  color: #121212;
+  margin-block: 1em;
+  font-size: 22px;
+  line-height: 1.7;
+}
+
 /* 원래 media query 안에 있던 스타일들 모두 바깥으로 이동 */
 .container.brand {
   background: #fffef0;

@@ -19,7 +19,7 @@ export default function MenuList({ category }) {
           <ul className="menuList">
             {items.map((item) => (
               <li key={item.id}>
-                <Link href={`/menu/${item.id}`} className="item">
+                <Link href={`/menu/menu_view?menu=${item.id}`} className="item">
                   <img
                     src={item.thumbnail}
                     alt={item.name}
