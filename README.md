@@ -12,10 +12,11 @@
 ---
 
 # 팀원 구성
+
 | 박경빈 | 배기열 | 이석진 | 이나영 | 임나연 |
 |--------|--------|--------|--------|--------|
-| ![박경빈](https://avatars.githubusercontent.com/u/124248292?v=4) | ![배기열](https://avatars.githubusercontent.com/u/203373298?v=4) | ![이석진](https://avatars.githubusercontent.com/u/23104248?v=4) | ![이나영](https://avatars.githubusercontent.com/u/203925759?v=4) | ![임나연](https://github.com/account) |
-| [GitHub](https://github.com/binipk) | [GitHub](https://github.com/GIYEOL1117) | [GitHub](https://github.com/Othereum) | [GitHub](https://github.com/NYoungLEE) | [GitHub](https://github.com/NYoungLEE) | [GitHub](https://github.com/nyaeon)  |
+|![박경빈](https://avatars.githubusercontent.com/u/124248292?v=4)|![배기열](https://avatars.githubusercontent.com/u/203373298?v=4)|![이석진](https://avatars.githubusercontent.com/u/23104248?v=4)|![이나영](https://avatars.githubusercontent.com/u/203925759?v=4)|![임나연](https://github.com/account)|
+|[GitHub](https://github.com/binipk)| [GitHub](https://github.com/GIYEOL1117) | [GitHub](https://github.com/Othereum) | [GitHub](https://github.com/NYoungLEE) | [GitHub](https://github.com/nyaeon)  |
 
 ---
 # 1. 프로젝트 소개
