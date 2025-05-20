@@ -168,4 +168,10 @@ https://sulbing-clone.vercel.app/
 # 폴더 구조
 ![image](https://github.com/user-attachments/assets/43fc80fc-9d93-4015-885c-0aa47585beda)
 
-
+---
+# 회고
+박경빈: 
+배기열: 
+이석진:
+이나영:
+임나연:
