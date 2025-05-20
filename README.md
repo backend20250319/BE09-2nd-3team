@@ -171,6 +171,7 @@ https://sulbing-clone.vercel.app/
 
 <details>
   <summary>2025/05/15</summary>
+  
   ## Agenda:
   1. 클론할 사이트 선택
   2. 사이트맵 및 기능 세분화
@@ -190,6 +191,7 @@ https://sulbing-clone.vercel.app/
 
 <details>
   <summary><b>2025/05/16</b></summary>
+  
   ## Agenda:
   1. 파트별 개발 현황 체크
     a. 사이트맵 정리 (완료)
@@ -211,12 +213,13 @@ https://sulbing-clone.vercel.app/
 
 <details>
   <summary><b>2025/05/16</b></summary>
+  
   ## Agenda:
   1. 파트별 개발 현황 체크
-      1. Main 개발 (완료)
-      2. Menu section 개발 (완료)
-      3. News & Support section 개발 (완료)
-      4. Store section (완료)
+      a. Main 개발 (완료)
+      b. Menu section 개발 (완료)
+      c. News & Support section 개발 (완료)
+      d. Store section (완료)
 
   ## Action Item (AI)
   1. QA Tesing
