@@ -170,7 +170,11 @@ https://sulbing-clone.vercel.app/
 ---
 # 회고
 박경빈: 
-배기열: 
+<br />
+배기열:
+<br />
 이석진:
+<br />
 이나영:
+<br />
 임나연:
