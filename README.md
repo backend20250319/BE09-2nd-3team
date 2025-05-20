@@ -195,14 +195,14 @@ https://sulbing-clone.vercel.app/
   
   ## Agenda:
   1. 파트별 개발 현황 체크
-  a. 사이트맵 정리 (완료)
-  b. Global Navigation 개발 (완료)
-  c. Main 개발 (70% 완료)
-  d. Brand section 개발 (완료)
-  e. Menu section 개발 (50% 완료)
-  f. News & Support section 개발 (30% 완료)
-  g. Store section (개발 예정)
-  h. Footer section 개발 (완료)
+  2. 사이트맵 정리 (완료)
+  3. lobal Navigation 개발 (완료)
+  4. Main 개발 (70% 완료)
+  5. Brand section 개발 (완료)
+  6. Menu section 개발 (50% 완료)
+  7. News & Support section 개발 (30% 완료)
+  8. Store section (개발 예정)
+  9. Footer section 개발 (완료)
 
   ## Action Item (AI)
   1. 이슈 및 마일스톤 생성
@@ -218,10 +218,10 @@ https://sulbing-clone.vercel.app/
   ## Agenda:
   
   1. 파트별 개발 현황 체크
-  a. Main 개발 (완료)
-  b. Menu section 개발 (완료)
-  c. News & Support section 개발 (완료)
-  d. Store section (완료)
+  2. Main 개발 (완료)
+  3. Menu section 개발 (완료)
+  4. News & Support section 개발 (완료)
+  5. Store section (완료)
 
   ## Action Item (AI)
   1. QA Tesing
