@@ -168,23 +168,31 @@ https://sulbing-clone.vercel.app/
 ![image](https://github.com/user-attachments/assets/43fc80fc-9d93-4015-885c-0aa47585beda)
 
 # 💬 5. 스크럼 회의록
-/> ## Agenda:
 
-1. 클론할 사이트 선택
-2. 사이트맵 및 기능 세분화
-3. 페이지 및 기능별 역할분담
-4. 각 파트멸 요구사항 분석 (기능 / 비기능)
+<details>
+  <summary>2025/05/16</summary>
+  ## Agenda:
+  1. 클론할 사이트 선택
+  2. 사이트맵 및 기능 세분화
+  3. 페이지 및 기능별 역할분담
+  4. 각 파트멸 요구사항 분석 (기능 / 비기능)
+  
+  ## Action Item (AI)
+  1. 사이트맵 정리 (박경빈)
+  2. Global Navigation 개발 (이석진)
+  3. Main 개발 (이석진)
+  4. Brand section 개발 (이나영)
+  5. Menu section 개발 (박경빈, 임나연)
+  6. News&Support section 개발 (배기열)
+  7. Store section 개발 (이석진)
+  8. Footer section 개발 (임나연)
+</details>
 
-## Action Item (AI)
+<details>
+  <summary><b>두번째토글</b></summary>
+  <!-- 내용 -->
+</details>
 
-1. 사이트맵 정리 (박경빈)
-2. Global Navigation 개발 (이석진)
-3. Main 개발 (이석진)
-4. Brand section 개발 (이나영)
-5. Menu section 개발 (박경빈, 임나연)
-6. News&Support section 개발 (배기열)
-7. Store section 개발 (이석진)
-8. Footer section 개발 (임나연)
 ---
 # ✏️ 6. 회고
 
