@@ -179,6 +179,7 @@ https://sulbing-clone.vercel.app/
   4. 각 파트멸 요구사항 분석 (기능 / 비기능)
   
   ## Action Item (AI)
+  
   1. 사이트맵 정리 (박경빈)
   2. Global Navigation 개발 (이석진)
   3. Main 개발 (이석진)
@@ -203,7 +204,8 @@ https://sulbing-clone.vercel.app/
     g. Store section (개발 예정)
     h. Footer section 개발 (완료)
 
-    ## Action Item (AI)
+  ## Action Item (AI)
+  
     1. 이슈 및 마일스톤 생성
     2. Main 페이지 개발
     3. Menu section 개발
@@ -215,6 +217,7 @@ https://sulbing-clone.vercel.app/
   <summary><b>2025/05/16</b></summary>
   
   ## Agenda:
+  
   1. 파트별 개발 현황 체크
       a. Main 개발 (완료)
       b. Menu section 개발 (완료)
@@ -222,6 +225,7 @@ https://sulbing-clone.vercel.app/
       d. Store section (완료)
 
   ## Action Item (AI)
+  
   1. QA Tesing
   2. Debugging
 </details>
