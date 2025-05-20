@@ -16,7 +16,7 @@ https://sulbing-clone.vercel.app/
 
 ---
 
-# 팀원 구성
+# 👤 팀원 구성
 
 | 박경빈 | 배기열 | 이석진 | 이나영 | 임나연 |
 |--------|--------|--------|--------|--------|
@@ -24,7 +24,7 @@ https://sulbing-clone.vercel.app/
 |[GitHub](https://github.com/binipk)| [GitHub](https://github.com/GIYEOL1117) | [GitHub](https://github.com/Othereum) | [GitHub](https://github.com/NYoungLEE) | [GitHub](https://github.com/nyaeon)  |
 
 ---
-# 1. 프로젝트 소개
+# 🧻 1. 프로젝트 소개
 ## 프로젝트 개요
 학습 목적에 맞게 설빙 페이지를 재설계 및 클론
 <br>
@@ -41,7 +41,7 @@ https://sulbing-clone.vercel.app/
 |푸터|임나연|공통 하단 정보|
 
 ---
-# 2. 요구사항 정의서
+# ⚖️ 2. 요구사항 정의서
 ## 기능 요구사항
 ### Header
 
@@ -158,17 +158,17 @@ https://sulbing-clone.vercel.app/
 | D6 | 돋보기 아이콘 클릭 | 매장 위치 조회 및 선택 (삭제될 수도 있음 |
 
 ---
-# 테스트 케이스 및 결과서
+# 🫙 3. 테스트 케이스 및 결과서
 ![image](https://github.com/user-attachments/assets/0d70db52-f411-4c13-9d0c-42e52b9a3fc0)
 ![image](https://github.com/user-attachments/assets/53780817-863c-4f4f-8ee0-77a4fc2c680a)
 
 
 ---
-# 폴더 구조
+# 🛟 4. 폴더 구조
 ![image](https://github.com/user-attachments/assets/43fc80fc-9d93-4015-885c-0aa47585beda)
 
 ---
-# 회고
+# ✏️ 5. 회고
 박경빈: 
 <br />
 
