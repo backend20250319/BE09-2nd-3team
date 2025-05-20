@@ -1,7 +1,9 @@
 # 🍧설빙 클론 프로젝트
 
+완성 프로젝트 URL ⬇️
+<br />
 https://sulbing-clone.vercel.app/
-
+<br />
 <b>Main 페이지</b>
 ![image](https://github.com/user-attachments/assets/08eb221a-5dd8-43b0-8078-34c3728b3833)
 <b>Brand 페이지</b>
@@ -10,10 +12,6 @@ https://sulbing-clone.vercel.app/
 ![image](https://github.com/user-attachments/assets/c9be59c7-c5db-4d7a-8b2d-3fe7416036bf)
 <b>Menu 상세페이지</b>
 ![image](https://github.com/user-attachments/assets/9f64d42e-72ff-4718-b50a-e887478f968e)
-
-완성 프로젝트 URL ⬇️
-<br />
-https://sulbing-clone.vercel.app/
 
 ---
 
