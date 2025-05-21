@@ -24,7 +24,7 @@ export default function Layout({ children }) {
                   onClick={() => handleClick('/news/notice')}>공지사항</Link>
                 <Link href='/news/faq' className={`${styles.tab} ${pathname === '/news/faq' ? styles.on : ''}`}
                   onClick={() => handleClick('/news/faq')}>FAQ</Link>
-                <Link href='https://sulbing.com/news/onlinecenter.php' className={`${styles.tab} ${pathname === '/news/onlineCenter' ? styles.on : ''}`}
+                <Link href='/news/onlineCenter' className={`${styles.tab} ${pathname === '/news/onlineCenter' ? styles.on : ''}`}
                   onClick={() => handleClick('/news/onlineCenter')}>온라인 고객센터</Link>
                 <Link href='/news/onlineCounsel' className={`${styles.tab} ${pathname === '/news/onlineCounsel' ? styles.on : ''}`}
                   onClick={() => handleClick('/news/onlineCounsel')}>온라인 상담내역</Link>
