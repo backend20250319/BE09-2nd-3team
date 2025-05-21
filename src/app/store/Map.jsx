@@ -50,6 +50,7 @@ function addStores(map) {
     const contentHTML = createStoreInfoHTML(store)
     const infowindow = new window.kakao.maps.InfoWindow({
       content: contentHTML,
+      removable: true
     })
 
     window.kakao.maps.event.addListener(marker, "click", () => {
@@ -68,6 +69,19 @@ function addStores(map) {
             })
           }
         }
+        var infoTitle = document.querySelectorAll(`.${styles.storeInfo}`);
+        infoTitle.forEach(function(e) {
+            var h = e.offsetHeight - 14;
+            var w = e.offsetWidth + 4;
+            var ml = w / 2;
+            e.parentElement.style.top = -h + "px";
+            e.parentElement.style.left = "50%";
+            e.parentElement.style.marginLeft = -ml + "px";
+            e.parentElement.style.width = w + "px";
+            e.parentElement.previousSibling.style.display = "none";
+            e.parentElement.parentElement.style.border = "0px";
+            e.parentElement.parentElement.style.background = "unset";
+        });
       }, 0)
     })
   })

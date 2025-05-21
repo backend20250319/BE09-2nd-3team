@@ -1,4 +1,10 @@
-# 🍧설빙 클론 프로젝트 보고서
+# 🍧설빙 클론 프로젝트
+
+완성 프로젝트 URL ⬇️
+<br />
+https://sulbing-clone.vercel.app/
+<br />
+
 <b>Main 페이지</b>
 ![image](https://github.com/user-attachments/assets/08eb221a-5dd8-43b0-8078-34c3728b3833)
 <b>Brand 페이지</b>
@@ -8,18 +14,25 @@
 <b>Menu 상세페이지</b>
 ![image](https://github.com/user-attachments/assets/9f64d42e-72ff-4718-b50a-e887478f968e)
 
+---
 
+# 👤 팀원 구성
 
-### 완성 프로젝트 URL⬇️
+| 박경빈 | 배기열 | 이석진 | 이나영 | 임나연 |
+|--------|--------|--------|--------|--------|
+|![박경빈](https://avatars.githubusercontent.com/u/124248292?v=4)|![배기열](https://avatars.githubusercontent.com/u/203373298?v=4)|![이석진](https://avatars.githubusercontent.com/u/23104248?v=4)|![이나영](https://avatars.githubusercontent.com/u/203925759?v=4)|![임나연](https://avatars.githubusercontent.com/u/83941568?v=4)|
+|[GitHub](https://github.com/binipk)| [GitHub](https://github.com/GIYEOL1117) | [GitHub](https://github.com/Othereum) | [GitHub](https://github.com/NYoungLEE) | [GitHub](https://github.com/nyaeon)  |
 
 ---
-# 1. 프로젝트 소개
+# 🧻 1. 프로젝트 소개
 ## 프로젝트 개요
 학습 목적에 맞게 설빙 페이지를 재설계 및 클론
+<br>
 프로젝트 기간 : 2025-05-16 ~ 2025-05-19
 <br>
 ## 역할 분담 및 기능 구성
 |페이지|담당자|주요 기능|
+|---|---|---|
 |메인페이지|이석진|메인 배너, 메뉴 섹션, SNS|
 |브랜드 페이지|이나영|설빙 스토리, 연혁 BI 소개|
 |메뉴 페이지|박경빈, 임나연|전체 메뉴, 카테고리별 메뉴 (설빙, 사이드, 음료)|
@@ -28,7 +41,7 @@
 |푸터|임나연|공통 하단 정보|
 
 ---
-# 2. 요구사항 정의서
+# ⚖️ 2. 요구사항 정의서
 ## 기능 요구사항
 ### Header
 
@@ -145,6 +158,96 @@
 | D6 | 돋보기 아이콘 클릭 | 매장 위치 조회 및 선택 (삭제될 수도 있음 |
 
 ---
-# 테스트 케이스 및 결과서
+# 🫙 3. 테스트 케이스 및 결과서
+![image](https://github.com/user-attachments/assets/0d70db52-f411-4c13-9d0c-42e52b9a3fc0)
+![image](https://github.com/user-attachments/assets/53780817-863c-4f4f-8ee0-77a4fc2c680a)
 
-# 폴더 구조
+
+---
+# 🛟 4. 폴더 구조
+![image](https://github.com/user-attachments/assets/43fc80fc-9d93-4015-885c-0aa47585beda)
+
+# 💬 5. 스크럼 회의록
+
+<details>
+  <summary>2025/05/15</summary>
+  
+  ## Agenda:
+  1. 클론할 사이트 선택
+  2. 사이트맵 및 기능 세분화
+  3. 페이지 및 기능별 역할분담
+  4. 각 파트멸 요구사항 분석 (기능 / 비기능)
+  
+  ## Action Item (AI)
+  
+  1. 사이트맵 정리 (박경빈)
+  2. Global Navigation 개발 (이석진)
+  3. Main 개발 (이석진)
+  4. Brand section 개발 (이나영)
+  5. Menu section 개발 (박경빈, 임나연)
+  6. News&Support section 개발 (배기열)
+  7. Store section 개발 (이석진)
+  8. Footer section 개발 (임나연)
+</details>
+
+<details>
+  <summary><b>2025/05/16</b></summary>
+  
+  ## Agenda:
+  1. 파트별 개발 현황 체크
+  2. 사이트맵 정리 (완료)
+  3. lobal Navigation 개발 (완료)
+  4. Main 개발 (70% 완료)
+  5. Brand section 개발 (완료)
+  6. Menu section 개발 (50% 완료)
+  7. News & Support section 개발 (30% 완료)
+  8. Store section (개발 예정)
+  9. Footer section 개발 (완료)
+
+  ## Action Item (AI)
+  1. 이슈 및 마일스톤 생성
+  2. Main 페이지 개발
+  3. Menu section 개발
+  4. News & Support section 개발
+  5. Store section 개발
+</details>
+
+<details>
+  <summary><b>2025/05/16</b></summary>
+  
+  ## Agenda:
+  
+  1. 파트별 개발 현황 체크
+  2. Main 개발 (완료)
+  3. Menu section 개발 (완료)
+  4. News & Support section 개발 (완료)
+  5. Store section (완료)
+
+  ## Action Item (AI)
+  1. QA Tesing
+  2. Debugging
+     
+</details>
+
+---
+
+# ✏️ 6. 회고
+
+## 박경빈
+
+## 배기열
+
+## 이석진
+이번 프로젝트는 프론트엔드 개발을 처음 경험하는 기회였다. 평소 생각보다는 조금 난이도가 있었다. 그동안 프론트엔드를 다소 가볍게 생각했던 점을 반성하게 되었다. 그래도 개발 과정은 정말 재미있었다.
+
+React의 등장 배경과 설계 사상은 흥미로웠다. 특히, 웹 페이지를 구성하는 요소들을 컴포넌트 단위로 분리하고, 순수 렌더링 로직과 사이드 이펙트 코드를 명확히 분리하는 구조가 인상 깊었다. 이는 생산성을 높이고 버그 가능성을 줄이기 위한, 오랜 시행착오 끝에 정립된 결과라고 생각된다.
+
+또한, 프레임워크와 관련 도구 전반에 걸쳐 다양한 패턴과 모범 사례가 잘 정리되어 있는 점도 신선하게 느껴졌다. 웹 개발은 커뮤니티 규모가 매우 크고, 이에 따라 품질 확보를 위한 논의와 해결책도 상당히 발전해 있다는 인상을 받았다.
+
+이번 경험을 통해 프론트엔드 개발이 단순히 화면을 그리는 작업을 넘어, 설계와 아키텍처 수준에서 많은 고민이 요구되는 분야임을 체감할 수 있었다. 동시에, 앞으로 배우게 될 백엔드 개발에서는 어떤 구조와 원리가 적용되는지 더 궁금해졌고, 보다 복잡한 시스템 설계와 데이터 흐름을 다루게 될 생각에 기대가 커졌다.
+
+## 이나영
+
+## 임나연
+이번 설빙 프로젝트에서는 푸터랑 푸터에서 연결되는 여러 페이지들을 클론 코딩했다. 단순히 화면만 따라 만든 게 아니라, 실제 웹사이트를 참고해서 기능적/비기능적 요구사항을 나눠보고, 각 항목에 대해 테스트 케이스도 작성해서 체크리스트처럼 하나하나 작동 여부를 확인했다.
+푸터를 구현하면서 가장 어려웠던 건, 브라우저에서 화면을 확대하거나 축소해도 링크 버튼이 이미지 안의 정해진 위치에 딱 고정되게 만드는 부분이었다. 생각보다 섬세하게 계산해야 했고, 반응형까지 고려하다 보니 시행착오도 많았다. 그래도 덕분에 세세한 UI 위치 조정이나 반응형 처리에 대해 좀 더 실전적인 감각을 익힐 수 있는 좋은 경험이 되었다.
